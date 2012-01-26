@@ -28,8 +28,8 @@
         </snapshotRepository>
     </distributionManagement>
     <scm>
-        <connection>scm:svn:https://cida-svn.er.usgs.gov/repos/dev/js_lib/maven/openlayers-parent/tags/openlayers-parent-2.11-1</connection>
-        <developerConnection>scm:svn:https://cida-svn.er.usgs.gov/repos/dev/js_lib/maven/openlayers-parent/tags/openlayers-parent-2.11-1</developerConnection>
+        <connection>scm:svn:https://cida-svn.er.usgs.gov/repos/dev/js_lib/maven/openlayers-parent/trunk</connection>
+        <developerConnection>scm:svn:https://cida-svn.er.usgs.gov/repos/dev/js_lib/maven/openlayers-parent/trunk</developerConnection>
     </scm>
     
     
