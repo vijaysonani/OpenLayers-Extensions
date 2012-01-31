@@ -1,2 +1,5 @@
-<!-- ${param["debug-qualifier"]} will get put in based on environment -->
-<script type="text/javascript" src="${param['relPath']}js/openlayers${param["debug-qualifier"]}/OpenLayers.js"></script>
+
+<%
+    String debug = Boolean.parseBoolean(request.getParameter("debug-qualifier")) ? "/lib" : "";
+%>
+<script type="text/javascript" src="${param['relPath']}js/openlayers<%= debug %>/OpenLayers.js"></script>
