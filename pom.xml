@@ -12,23 +12,39 @@
         <module>openlayers-cql</module>
         <module>openlayers-nationalmap</module>
         <module>openlayers-px3json</module>
-  </modules>
+    </modules>
 
     <name>Openlayers Parent</name>
     <url>http://openlayer.org</url>
+    
+    <properties>
+        <cida.maven.url>http://cida-wiwsc-maven.er.usgs.gov:8080/maven</cida.maven.url>
+    </properties>
     
     <distributionManagement>
         <repository>
             <id>cida-releases</id>
             <name>CIDA Releases</name>
-            <url>http://internal.cida.usgs.gov/maven/content/repositories/cida-releases/</url>
+            <url>${cida.maven.url}/content/repositories/cida-releases/</url>
         </repository>
         <snapshotRepository>
             <id>cida-snapshots</id>
             <name>CIDA Snapshots</name>
-            <url>http://internal.cida.usgs.gov/maven/content/repositories/cida-snapshots/</url>
+            <url>${cida.maven.url}/content/repositories/cida-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>CIDA Nexus</name>
+            <url>${cida.maven.url}/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>cida-snapshots</id>
+            <name>CIDA Nexus Snapshots</name>
+            <url>${cida.maven.url}/content/groups/public-snapshots/</url>
+        </repository>
+    </repositories>
     <scm>
         <connection>scm:svn:https://cida-svn.er.usgs.gov/repos/dev/js_lib/maven/openlayers-parent/trunk</connection>
         <developerConnection>scm:svn:https://cida-svn.er.usgs.gov/repos/dev/js_lib/maven/openlayers-parent/trunk</developerConnection>
