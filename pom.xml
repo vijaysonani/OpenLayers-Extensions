@@ -11,7 +11,8 @@
         <!-- put extensions / modifications here -->
         <module>openlayers-cql</module>
         <module>openlayers-nationalmap</module>
-    </modules>
+        <module>openlayers-px3json</module>
+  </modules>
 
     <name>Openlayers Parent</name>
     <url>http://openlayer.org</url>
