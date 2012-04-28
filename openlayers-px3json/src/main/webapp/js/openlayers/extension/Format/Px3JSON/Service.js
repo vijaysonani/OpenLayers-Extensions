@@ -1,4 +1,4 @@
-OpenLayers.Px3JSON.Service = OpenLayers.Class({
+OpenLayers.Format.Px3JSON.Service = OpenLayers.Class({
     
     /**
     * Class: OpenLayers.Px3JSON.Service
@@ -129,5 +129,60 @@ OpenLayers.Px3JSON.Service = OpenLayers.Class({
      * section for configuration format of this object.
      */
     defaultInfotemplate : null,
-    CLASS_NAME: "OpenLayers.Px3JSON.Service"
+    
+    /**
+     * Constructor: OpenLayers.Format.Px3JSON.Service
+     * Construct an OpenLayers.Format.Px3JSON.Service object
+     * 
+     * Parameters:
+     * options - {Object} Optional object whose properties will be set on
+     *     the object.
+     */
+    initialize: function(options) {
+        OpenLayers.Util.applyDefaults(this, options);
+        if (this.opacity < 0) {
+            this.opacity = 0;
+        } else if (this.opacity > 1) {
+            this.opacity = 1.0;
+        }
+        // TODO- Initialize layers and defaultInfotemplate objects
+    },
+    
+    /**
+     * APIMethod: read
+     * Read a JSON object into a OpenLayers.Format.Px3JSON.Service object
+     *
+     * Parameters:
+     * obj - {Object} A JSON string
+     *
+     * Returns: 
+     * {OpenLayers.Format.Px3JSON.Service} 
+     */
+    read : function(json) {
+        return new OpenLayers.Format.Px3JSON.Service(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
+    },
+    
+    /**
+     * Method: isValidType
+     * Check if a Service object is a valid representative of the given type.
+     *
+     * Returns:
+     * {Boolean} The object is valid Service object of the given type.
+     */
+    isValidType : function(service) {
+        if (!service.id ||
+            !service.url ||
+            !service.displayName ||
+            !service.type ||
+            !service.drawOrder ||
+            !service.downloadUrl ||
+            !service.opacity ||
+            !service.layers || 
+            !service.defaultInfotemplate) {
+            return false;
+            }
+            return true;
+    },
+    
+    CLASS_NAME: "OpenLayers.Format.Px3JSON.Service"
 });
