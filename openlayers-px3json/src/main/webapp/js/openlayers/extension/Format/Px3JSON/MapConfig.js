@@ -3,12 +3,13 @@ OpenLayers.Format.Px3JSON.MapConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON
     /**
     * Class: OpenLayers.Format.Px3JSON.MapConfig
     * 
+    * (Base Context)
+    * 
     * An object used to set the initial map settings.
     * 
     * @requires OpenLayers/Format/Px3JSON/MapConfig.js
     * @required OpenLayers/Format/Px3JSON/BackgroundMaps.js
-    * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
     
     /**

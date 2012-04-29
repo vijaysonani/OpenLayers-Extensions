@@ -1,14 +1,13 @@
 OpenLayers.Format.Px3JSON.Tools = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.Tools
+    * Class: OpenLayers.Format.Px3JSON.Tools (Px3 Viewer Unique)
     * 
     * An array of tool group configuration objects.
     * 
     * @requires OpenLayers/Format/Px3JSON.js
     * @requires OpenLayers/Format/Px3JSON/ToolConfiguration.js
-    * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
     
     /**

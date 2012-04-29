@@ -1,13 +1,14 @@
 OpenLayers.Format.Px3JSON.DynamicUserServicesConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.DynamicUserServicesConfig
+    * Class: OpenLayers.Format.Px3JSON.DynamicUserServicesConfig (Px3 Viewer Unique, for WMS services)
+    * 
+    * Dynamic User Services Configuration Object
     * 
     * An object containing configuration information related to the selection results.
     * 
     * @requires OpenLayers/Format/Px3JSON.js
-    * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**

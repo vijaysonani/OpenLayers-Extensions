@@ -2,6 +2,8 @@ OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class(OpenLayers.Format.Px3JS
     /**
     * Class: OpenLayers.Format.Px3JSON.LayerConfig
     * 
+    * Layer Configuration Object
+    * 
     * @requires OpenLayers/Format/Px3JSON/InfoTemplate.js
     * @requires OpenLayers/Format/Px3JSON.js
     *  
@@ -10,22 +12,25 @@ OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class(OpenLayers.Format.Px3JS
    
     /**
      * Property: id
-     * {String} Id of the layer, this should match the key in the layers hash 
+     * Id of the layer, this should match the key in the layers hash 
      * map object (this allows for fast access to a Layer Configuration Object)
+     * {String} 
      */
     id: null,
     
     /**
      * Property: identifiable
-     * {Boolean} True will allows the layer to be identified upon. This will 
+     * True will allows the layer to be identified upon. This will 
      * override the value of the Service Configuration Object’s layersDefaultIdentifiable property.
+     * {Boolean} 
      */
     identifiable : false,
     
     /**
      * Property: infoTemplate
-     * {OpenLayers.Format.Px3JSON.InfoTemplate} Optional. The template used to create the contents of the 
+     * Optional. The template used to create the contents of the 
      * InfoWindow displayed when an identified features details are displayed.
+     * {OpenLayers.Format.Px3JSON.InfoTemplate} 
      */
     infoTemplate : {},
     

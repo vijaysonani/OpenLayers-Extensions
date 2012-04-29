@@ -1,4 +1,3 @@
-
 /**
  * Class: OpenLayers.Format.Px3JSON
  */
@@ -39,7 +38,6 @@ OpenLayers.Format.Px3JSON = OpenLayers.Class(OpenLayers.Format.JSON, {
     write: function(json, pretty) {
         return OpenLayers.Format.JSON.prototype.write.apply(this, [json, pretty]);
     },
-
     
     /**
      * Method: isValidType
