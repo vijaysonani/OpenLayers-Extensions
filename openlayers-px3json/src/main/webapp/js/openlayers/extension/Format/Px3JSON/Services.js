@@ -1,4 +1,4 @@
-OpenLayers.Format.Px3JSON.Service = OpenLayers.Class({
+OpenLayers.Format.Px3JSON.Services = OpenLayers.Class({
     
     /**
     * @requires OpenLayers/Format/Px3JSON/LayerConfig.js
@@ -135,8 +135,8 @@ OpenLayers.Format.Px3JSON.Service = OpenLayers.Class({
     defaultInfotemplate : {},
     
     /**
-     * Constructor: OpenLayers.Format.Px3JSON.Service
-     * Construct an OpenLayers.Format.Px3JSON.Service object
+     * Constructor: OpenLayers.Format.Px3JSON.Services
+     * Construct an OpenLayers.Format.Px3JSON.Services object
      * 
      * Parameters:
      * options - {Object} Optional object whose properties will be set on
@@ -165,33 +165,36 @@ OpenLayers.Format.Px3JSON.Service = OpenLayers.Class({
      * obj - {Object} A JSON string
      *
      * Returns: 
-     * {OpenLayers.Format.Px3JSON.Service} 
+     * {OpenLayers.Format.Px3JSON.Services} 
      */
     read : function(json) {
-        return new OpenLayers.Format.Px3JSON.Service(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
+        return new OpenLayers.Format.Px3JSON.Services(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
     },
     
     /**
      * Method: isValidType
      * Check if a Service object is a valid representative of the given type.
-     *
+     * 
+     * Parameters:
+     * obj - {Object} An initialized object of this type
+     * 
      * Returns:
      * {Boolean} The object is valid Service object of the given type.
      */
-    isValidType : function(service) {
-        if (!service.id ||
-            !service.url ||
-            !service.displayName ||
-            !service.type ||
-            !service.drawOrder ||
-            !service.downloadUrl ||
-            !service.opacity ||
-            !service.layers || 
-            !service.defaultInfotemplate) {
+    isValidType : function(obj) {
+        if (!obj.id ||
+            !obj.url ||
+            !obj.displayName ||
+            !obj.type ||
+            !obj.drawOrder ||
+            !obj.downloadUrl ||
+            !obj.opacity ||
+            !obj.layers || 
+            !obj.defaultInfotemplate) {
             return false;
         }
         return true;
     },
     
-    CLASS_NAME: "OpenLayers.Format.Px3JSON.Service"
+    CLASS_NAME: "OpenLayers.Format.Px3JSON.Services"
 });
