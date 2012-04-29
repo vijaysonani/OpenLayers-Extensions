@@ -60,6 +60,14 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
      * {OpenLayers.Format.Px3JSON.BandwidthTestEndpoints} 
      */
     bandwidthTestEndpoints : {},
+
+    /**
+     * Property : extents
+     * The extents object can be thought of as a hash map with the key being the
+     * extent id and value being an extent configuration object.
+     * {OpenLayers.Format.Px3JSON.Extents} 
+     */
+    extents : {},
     
     /**
      * Property : tasks
@@ -98,7 +106,14 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
      * {OpenLayers.Format.Px3JSON.InfoWindowConfig} 
      */
     infoWindowConfig : {},  
-          
+    
+    /**
+     * Property : searchConfig
+     * An object used to configure the search function.
+     * {OpenLayers.Format.Px3JSON.SearchConfig} 
+     */
+    searchConfig : {},
+    
     /**
      * Property : routerConfig
      * An object containing configuration information related to the router. 
@@ -192,7 +207,7 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
                     for (var key in val) {
                         obj = new OpenLayers.Format.Px3JSON.Services(val[key]);
                         if (obj.isValidType(obj)) {
-                            this[option] = obj;
+                            this[option][key] = obj;
                         }
                     }
                     break;
@@ -200,7 +215,7 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
                     for (var key in val) {
                         obj = new OpenLayers.Format.Px3JSON.ServiceGroups(val[key]);
                         if (obj.isValidType(obj)) {
-                            this[option] = obj;
+                            this[option][key] = obj;
                         }
                     }
                     break;
@@ -208,7 +223,7 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
                     for (var key in val) {
                         obj = new OpenLayers.Format.Px3JSON.Locators(val[key]);
                         if (obj.isValidType(obj)) {
-                            this[option] = obj;
+                            this[option][key] = obj;
                         }
                     }
                     break;
@@ -216,7 +231,15 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
                     for (var key in val) {
                         obj = new OpenLayers.Format.Px3JSON.BandwidthTestEndpoints(val[key]);
                         if (obj.isValidType(obj)) {
-                            this[option] = obj;
+                            this[option][key] = obj;
+                        }
+                    }
+                    break;
+                case 'extents' :
+                    for (var key in val) {
+                        obj = new OpenLayers.Format.Px3JSON.Extents(val[key]);
+                        if (obj.isValidType(obj)) {
+                            this[option][key] = obj;
                         }
                     }
                     break;
@@ -224,11 +247,12 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
                     for (var key in val) {
                         obj = new OpenLayers.Format.Px3JSON.Tasks(val[key]);
                         if (obj.isValidType(obj)) {
-                            this[option] = obj;
+                            this[option][key] = obj;
                         }
                     }
                     break;
                 case 'tools' :
+                    this[option] = [];
                     for (var key in val) {
                         obj = new OpenLayers.Format.Px3JSON.Tools(val[key]);
                         if (obj.isValidType(obj)) {
@@ -253,7 +277,14 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
                     if (obj.isValidType(obj)) {
                         this[option] = obj;
                     }
-                    break;  
+                    break; 
+                case 'searchConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.SearchConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;      
+                    
                 case 'routerConfig' :
                     obj = new OpenLayers.Format.Px3JSON.RouterConfig(val);
                     if (obj.isValidType(obj)) {

@@ -1,13 +1,14 @@
 OpenLayers.Format.Px3JSON.EditUtilConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.EditUtilConfig
+    * Class: OpenLayers.Format.Px3JSON.EditUtilConfig (Px3 Viewer Unique)
     * 
-    * @requires OpenLayers/Format/Px3JSON.js
+    * Edit Utility Configuration Object
     * 
     * An object containing configuration information related to editing annotations.
     * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @requires OpenLayers/Format/Px3JSON.js
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**

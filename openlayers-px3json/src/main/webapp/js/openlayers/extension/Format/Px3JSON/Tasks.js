@@ -3,6 +3,8 @@ OpenLayers.Format.Px3JSON.Tasks = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
     /**
     * Class: OpenLayers.Format.Px3JSON.Tasks (Px3 Viewer Unique)
     * 
+    * Task Configuration Object
+    * 
     * The tasks object can be thought of as a hash map with the key being the 
     * task id and value being a task configuration object. This is included in 
     * the NGA Palanterra x3 Toolbox, but not used by USGS The National Map

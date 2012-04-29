@@ -1,14 +1,15 @@
 OpenLayers.Format.Px3JSON.PreviousSearchDataStore = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.PreviousSearchDataStore
+    * Class: OpenLayers.Format.Px3JSON.PreviousSearchDataStore (Px3 Viewer Unique, optional)
+    * 
+    * Previous Search Data Store Configuration Object
     * 
     * An object containing configuration information related to storing previous search text.
     * Note: to prevent storing any previous search text, remove this object from the configuration
     * 
     * @requires OpenLayers/Format/Px3JSON.js
-    * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**

@@ -6,6 +6,8 @@ OpenLayers.Format.Px3JSON.BandwidthTestEndpoints = OpenLayers.Class(OpenLayers.F
     * The bandwidthTestEndpoints object can be thought of as a hash map with 
     * the key being the endpoint id and value being an endpoint configuration object.
     * 
+    * Bandwidth Test Endpoint Object
+    * 
     * @requires OpenLayers/Format/Px3JSON.js
     * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */

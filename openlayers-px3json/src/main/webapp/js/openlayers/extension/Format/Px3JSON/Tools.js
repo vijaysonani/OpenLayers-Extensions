@@ -3,6 +3,8 @@ OpenLayers.Format.Px3JSON.Tools = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
     /**
     * Class: OpenLayers.Format.Px3JSON.Tools (Px3 Viewer Unique)
     * 
+    * Tool Group Object
+    * 
     * An array of tool group configuration objects.
     * 
     * @requires OpenLayers/Format/Px3JSON.js
