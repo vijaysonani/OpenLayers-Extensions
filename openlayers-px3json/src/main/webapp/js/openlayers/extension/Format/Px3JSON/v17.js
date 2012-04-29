@@ -118,7 +118,55 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class({
                     if (obj.isValidType(obj)) {
                         this[option] = obj;
                     }
-                    break;                  
+                    break;    
+                case 'selectionResultsConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.SelectionResultsConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;   
+                case 'nssEventEntryConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.NSSEEventEntryConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;   
+                case 'nssEventListConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.NSSEEventListConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;   
+                case 'dynamicUserServicesConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.DynamicUserServicesConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;   
+                case 'gmtiConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.GMTIConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;   
+                case 'editUtilConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.EditUtilConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;   
+                case 'previousSearchDataStore' :
+                    obj = new OpenLayers.Format.Px3JSON.PreviousSearchDataStore(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;   
+                case 'wmsErrorConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.WMSErrorConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;   
             }
         }
         var a = 1;
