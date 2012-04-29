@@ -1,7 +1,7 @@
 OpenLayers.Format.Px3JSON.Extents = OpenLayers.Class({
     
     /**
-    * Class: OpenLayers.Format.Px3JSON.OpenLayers.Format.Px3JSON.Extents
+    * Class: OpenLayers.Format.Px3JSON.Extents
     * 
     * The extents object can be thought of as a hash map with the key being the 
     * extent id and value being an extent configuration object.

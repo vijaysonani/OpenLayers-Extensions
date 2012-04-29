@@ -87,6 +87,21 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class({
                         }
                     }
                     break;
+                case 'tools' :
+                    for (var key in val) {
+                        obj = new OpenLayers.Format.Px3JSON.Tools(val[key]);
+                        if (obj.isValidType(obj)) {
+                            this[option] = obj;
+                        }
+                    }
+                    break;
+                 case 'mapConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.MapConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;                   
+                    
             }
         }
         var a = 1;
