@@ -1,12 +1,12 @@
-OpenLayers.Format.Px3JSON.MapConfig = OpenLayers.Class({
-    /**
-    * @requires OpenLayers/Format/Px3JSON/MapConfig.js
-    */
+OpenLayers.Format.Px3JSON.MapConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
     * Class: OpenLayers.Format.Px3JSON.MapConfig
     * 
     * An object used to set the initial map settings.
+    * 
+    * @requires OpenLayers/Format/Px3JSON/MapConfig.js
+    * @required OpenLayers/Format/Px3JSON/BackgroundMaps.js
     * 
     * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
@@ -83,8 +83,6 @@ OpenLayers.Format.Px3JSON.MapConfig = OpenLayers.Class({
      * {OpenLayers.Format.Px3JSON.BackgroundMaps[]} An array of objects defining types of background maps.
      */
     backgroundMaps: [],
-
-    options : null,
     
     /**
      * Constructor: OpenLayers.Format.Px3JSON.MapConfig
@@ -117,20 +115,6 @@ OpenLayers.Format.Px3JSON.MapConfig = OpenLayers.Class({
      */
     read : function(json) {
         return new OpenLayers.Format.Px3JSON.MapConfig(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
-    },
-    
-    /**
-     * Method: isValidType
-     * Check if an object is a valid representative of the given type.
-     * 
-     * Parameters:
-     * obj - {Object} An initialized object of this type
-     * 
-     * Returns:
-     * {Boolean} The object is valid object of the given type.
-     */
-    isValidType : function(obj) {
-        return true;
     },
     
     CLASS_NAME: "OpenLayers.Format.Px3JSON.MapConfig"

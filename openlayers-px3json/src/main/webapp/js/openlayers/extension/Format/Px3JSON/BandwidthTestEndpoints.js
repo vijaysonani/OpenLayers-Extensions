@@ -1,7 +1,9 @@
-OpenLayers.Format.Px3JSON.BandwidthTestEndpoints = OpenLayers.Class({
+OpenLayers.Format.Px3JSON.BandwidthTestEndpoints = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
     
     /**
     * Class: OpenLayers.Format.Px3JSON.BandwidthTestEndpoints
+    * 
+    * @requires OpenLayers/Format/Px3JSON.js
     * 
     * The bandwidthTestEndpoints object can be thought of as a hash map with 
     * the key being the endpoint id and value being an endpoint configuration object.
@@ -28,18 +30,6 @@ OpenLayers.Format.Px3JSON.BandwidthTestEndpoints = OpenLayers.Class({
      * {String} The number of bytes to send to the service as a test
      */
     cityField: 'byteSize',
-
-    /**
-     * Constructor: OpenLayers.Format.Px3JSON.BandwidthTestEndpoints
-     * Construct an OpenLayers.Format.Px3JSON.BandwidthTestEndpoints object
-     * 
-     * Parameters:
-     * options - {Object} Optional object whose properties will be set on
-     *     the object.
-     */
-    initialize: function(options) {
-        OpenLayers.Util.applyDefaults(this, options);
-    },
     
     /**
      * APIMethod: read
@@ -53,20 +43,6 @@ OpenLayers.Format.Px3JSON.BandwidthTestEndpoints = OpenLayers.Class({
      */
     read : function(json) {
         return new OpenLayers.Format.Px3JSON.BandwidthTestEndpoints(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
-    },
-    
-    /**
-     * Method: isValidType
-     * Check if an object is a valid representative of the given type.
-     * 
-     * Parameters:
-     * obj - {Object} An initialized object of this type
-     * 
-     * Returns:
-     * {Boolean} The object is valid object of the given type.
-     */
-    isValidType : function(obj) {
-        return true;
     },
     
     CLASS_NAME: "OpenLayers.Format.Px3JSON.BandwidthTestEndpoints"

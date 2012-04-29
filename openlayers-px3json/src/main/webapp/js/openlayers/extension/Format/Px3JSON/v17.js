@@ -1,11 +1,13 @@
 /**
+ * @requires OpenLayers/Format/Px3JSON.js
  * @requires OpenLayers/Format/Px3JSON/Service.js
+ * @requires OpenLayers/Format/Px3JSON/ServiceGroups.js
  */
 
 /**
  * Class: OpenLayers.Format.Px3JSON.v17
  */
-OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class({
+OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
     /**
      * Property : services
      * The services object can be thought of as a hash map with the key being 
@@ -30,8 +32,7 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class({
      * the locator id and value a locator configuration object.
      * {OpenLayers.Format.Px3JSON.Locators} 
      */
-    
-    options : {},
+    locators : {},
     
     /**
      * Constructor: OpenLayers.Format.Px3JSON.v17
@@ -189,20 +190,6 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class({
             return new OpenLayers.Format.Px3JSON.v17(obj);
         }
     }, 
-    
-    /**
-     * Method: isValidType
-     * Check if an object is a valid representative of the given type.
-     * 
-     * Parameters:
-     * obj - {Object} An initialized object of this type
-     * 
-     * Returns:
-     * {Boolean} The object is valid object of the given type.
-     */
-    isValidType : function(obj) {
-        return true;
-    },
     
     CLASS_NAME : 'OpenLayers.Format.Px3JSON.v17'
 })
