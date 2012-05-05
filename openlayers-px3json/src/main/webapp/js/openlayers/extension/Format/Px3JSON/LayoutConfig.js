@@ -72,11 +72,10 @@ OpenLayers.Format.Px3JSON.LayoutConfig = OpenLayers.Class(OpenLayers.Format.Px3J
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
-        if (this.options.overlayGroups) {
+        if (options.overlayGroups) {
             this.overlayGroups = [];
-            for (var overlayGroupsIndex = 0;overlayGroupsIndex < this.options.overlayGroups.length;overlayGroupsIndex++) {
-                this.overlayGroups.push(new OpenLayers.Format.Px3JSON.OverlayGroups(this.options.overlayGroups[overlayGroupsIndex]));
+            for (var overlayGroupsIndex = 0;overlayGroupsIndex < options.overlayGroups.length;overlayGroupsIndex++) {
+                this.overlayGroups.push(new OpenLayers.Format.Px3JSON.OverlayGroups(options.overlayGroups[overlayGroupsIndex]));
             }
         }
     },

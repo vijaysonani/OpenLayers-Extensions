@@ -71,9 +71,8 @@ OpenLayers.Format.Px3JSON.InfoWindowConfig = OpenLayers.Class(OpenLayers.Format.
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
-        if (this.options.searchConfig) {
-            this.searchConfig = new OpenLayers.Format.Px3JSON.SearchConfig(this.options.searchConfig);
+        if (options.searchConfig) {
+            this.searchConfig = new OpenLayers.Format.Px3JSON.SearchConfig(options.searchConfig);
         }
     },
     

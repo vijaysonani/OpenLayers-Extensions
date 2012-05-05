@@ -95,11 +95,10 @@ OpenLayers.Format.Px3JSON.MapConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
-        if (this.options.backgroundMaps) {
+        if (options.backgroundMaps) {
             this.backgroundMaps = [];
-            for (var backgroundMapsIndex = 0;backgroundMapsIndex < this.options.backgroundMaps.length;backgroundMapsIndex++) {
-                this.backgroundMaps.push(new OpenLayers.Format.Px3JSON.BackgroundMaps(this.options.backgroundMaps[backgroundMapsIndex]));
+            for (var backgroundMapsIndex = 0;backgroundMapsIndex < options.backgroundMaps.length;backgroundMapsIndex++) {
+                this.backgroundMaps.push(new OpenLayers.Format.Px3JSON.BackgroundMaps(options.backgroundMaps[backgroundMapsIndex]));
             }
         }
     },

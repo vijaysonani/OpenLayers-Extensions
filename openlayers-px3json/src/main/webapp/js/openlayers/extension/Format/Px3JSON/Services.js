@@ -147,14 +147,13 @@ OpenLayers.Format.Px3JSON.Services = OpenLayers.Class(OpenLayers.Format.Px3JSON,
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
         
         if (this.opacity < 0) {
             this.opacity = 0;
         } else if (this.opacity > 1) {
             this.opacity = 1.0;
         }
-        for (var layer in this.options.layers) {
+        for (var layer in options.layers) {
             this.layers[layer] = new OpenLayers.Format.Px3JSON.LayerConfig(this.layers[layer]);
         }
         if (!Object.keys(this.layers).length) {

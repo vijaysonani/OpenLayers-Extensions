@@ -198,9 +198,8 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
      */    
     initialize : function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
-        for (var option in this.options) {
-            var val = this.options[option];
+        for (var option in options) {
+            var val = options[option];
             var obj = {};
             switch(option) {
                 case 'services' :

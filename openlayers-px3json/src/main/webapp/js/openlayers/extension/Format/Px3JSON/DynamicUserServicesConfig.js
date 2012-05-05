@@ -53,10 +53,9 @@ OpenLayers.Format.Px3JSON.DynamicUserServicesConfig = OpenLayers.Class(OpenLayer
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
-        if (this.options.opacity < 0) {
+        if (options.opacity < 0) {
             this.opacity = 0;
-        } else if(this.options.opacity > 1) {
+        } else if(options.opacity > 1) {
             this.opacity = 1;
         }
     },

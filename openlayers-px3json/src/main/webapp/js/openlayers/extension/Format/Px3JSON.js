@@ -7,11 +7,6 @@
 OpenLayers.Format.Px3JSON = OpenLayers.Class(OpenLayers.Format.JSON, {
     
     /**
-     * Holds the JSON that the object was initialized with
-     */
-    options : {},
-    
-    /**
      * Constructor: OpenLayers.Format.Px3JSON 
      * Construct an OpenLayers.Format.Px3JSON object
      * 
@@ -21,7 +16,6 @@ OpenLayers.Format.Px3JSON = OpenLayers.Class(OpenLayers.Format.JSON, {
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
     },
     
    /**

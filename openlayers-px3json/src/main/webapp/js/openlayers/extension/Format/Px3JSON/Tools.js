@@ -34,11 +34,10 @@ OpenLayers.Format.Px3JSON.Tools = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
-        if (this.options.tools) {
+        if (options.tools) {
             this.tools = [];
-            for (var toolsIndex = 0;toolsIndex < this.options.tools.length;toolsIndex++) {
-                this.tools.push(new OpenLayers.Format.Px3JSON.ToolConfiguration(this.options.tools[toolsIndex]));
+            for (var toolsIndex = 0;toolsIndex < options.tools.length;toolsIndex++) {
+                this.tools.push(new OpenLayers.Format.Px3JSON.ToolConfiguration(options.tools[toolsIndex]));
             }
         }
     },
