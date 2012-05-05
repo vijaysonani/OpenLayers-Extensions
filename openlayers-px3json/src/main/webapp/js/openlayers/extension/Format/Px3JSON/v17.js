@@ -212,7 +212,10 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
                     break;
                 case 'serviceGroups' :
                     for (var key in val) {
-                        obj = new OpenLayers.Format.Px3JSON.ServiceGroups(val[key]);
+                        obj = new OpenLayers.Format.Px3JSON.ServiceGroups({
+                            id : key,
+                            serviceIds : val[key]
+                        });
                         if (obj.isValidType(obj)) {
                             this[option][key] = obj;
                         }
