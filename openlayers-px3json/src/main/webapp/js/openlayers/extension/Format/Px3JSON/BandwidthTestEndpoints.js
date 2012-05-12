@@ -28,7 +28,7 @@ OpenLayers.Format.Px3JSON.BandwidthTestEndpoints = OpenLayers.Class(OpenLayers.F
  
      /**
      * Property: byteSize
-     * {Number} The number of bytes to send to the service as a test
+     * {Integer} The number of bytes to send to the service as a test
      */
     byteSize: 'byteSize',
     

@@ -30,7 +30,9 @@ OpenLayers.Format.Px3JSON.BackgroundMaps = OpenLayers.Class(OpenLayers.Format.Px
     
     /**
      * Property: serviceControls
-     * {Object[]} An array of service control configuration objects. Provides control of specific service visibility within background maps.
+     * {OpenLayers.Format.Px3JSON.ServiceControls[]} An array of service control 
+     * configuration objects. Provides control of specific service visibility 
+     * within background maps.
      */
     serviceControls: [],
    

@@ -24,6 +24,12 @@ OpenLayers.Format.Px3JSON.NSSEEventEntryConfig = OpenLayers.Class(OpenLayers.For
      */
     nsseEventsLayerId: null,
      
+     /**
+      * Property: nsseEventsTimeServiceId
+      * {String} Id of the map service used to display time visualization of NSSE events.
+      */
+    nsseEventsTimeServiceId : null,
+    
     /**
      * Property: featureServiceUrl
      * {String} URL to the feature service used for editing NSSE events features. An example is:

@@ -12,6 +12,14 @@ OpenLayers.Format.Px3JSON.InfoWindowConfig = OpenLayers.Class(OpenLayers.Format.
     * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
+   /**
+    * Property: editAnnotationGeoServiceUrl
+    * {String} This property exists in both /doc/jsapix-config.schema.jsd
+    * and in /doc/example.json but has no description @
+    * https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    */
+   editAnnotationGeoServiceUrl : null,
+   
     /**
      * Property: type
      * {Boolean} The class to be used as an info window.

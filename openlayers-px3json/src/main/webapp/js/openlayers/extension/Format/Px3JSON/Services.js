@@ -90,7 +90,7 @@ OpenLayers.Format.Px3JSON.Services = OpenLayers.Class(OpenLayers.Format.Px3JSON,
     /** 
      * Property : type
      * {String} Specifies the layer's type
-     * Possible values: tiled, dynamic, wms,wmts, image, nrl. 
+     * Possible values: tiled, dynamic, wms, wmts, image, nrl. 
      * Note: Dynamic Services will be rendered as PNG 24 images 
      * except in IE6 where they will be rendered as PNG 8.
      */
@@ -101,12 +101,13 @@ OpenLayers.Format.Px3JSON.Services = OpenLayers.Class(OpenLayers.Format.Px3JSON,
      * {Number} Specifies the default draw order for stacking services on top of each 
      * other to create the map the user sees in the browser. The higher values appear 
      * on top.
+     * Default: 0
      */
-    drawOrder : null,
+    drawOrder : 0,
     
     /**
      * Property : downloadUrl
-     * {String} URL pointing to a file to be used for the Download Layer link on 
+     * {String} Optional. URL pointing to a file to be used for the Download Layer link on 
      * this service's context menu.
      */
     downloadUrl : null,
@@ -114,8 +115,9 @@ OpenLayers.Format.Px3JSON.Services = OpenLayers.Class(OpenLayers.Format.Px3JSON,
     /** 
      * Property : opacity
      * {Number} Number between 0 and 1.0 that determines the default opacity of a layer.
+     * Default: 1.0
      */
-    opacity : null,
+    opacity : 1.0,
     
     /**
      * Property : refreshIntervalSeconds
@@ -136,6 +138,20 @@ OpenLayers.Format.Px3JSON.Services = OpenLayers.Class(OpenLayers.Format.Px3JSON,
      * Refer to the Info Template Object section for configuration format of this object.
      */
     defaultInfotemplate : {},
+    
+    /**
+     * Property: imageFormat
+     * See /doc/jsapix-config-schema.jsd
+     * {String} Optional. 
+     */
+    imageFormat : null,
+    
+    /**
+     * Property: disableViewin
+     * See /doc/jsapix-config-schema.jsd
+     * {Boolean} Optional. 
+     */
+    disableViewin : false,
     
     /**
      * Constructor: OpenLayers.Format.Px3JSON.Services

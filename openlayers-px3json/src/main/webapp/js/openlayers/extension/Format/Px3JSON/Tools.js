@@ -25,6 +25,13 @@ OpenLayers.Format.Px3JSON.Tools = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
     tools: [],
     
     /**
+     * Property: minItems
+     * {Integer} A number, >= 0, specifies the minimum length of the tools array for this
+     * object to be considered valid.
+     */
+    minItems : 1,
+    
+    /**
      * Constructor: OpenLayers.Format.Px3JSON.Tools
      * Construct an OpenLayers.Format.Px3JSON.Tools object
      * 
@@ -56,5 +63,22 @@ OpenLayers.Format.Px3JSON.Tools = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
         return new OpenLayers.Format.Px3JSON.Tools(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
     },
     
+    /**
+     * Method: isValidType
+     * Check if an object is a valid representative of the given type.
+     * 
+     * Parameters:
+     * obj - {Object} An initialized object of this type
+     * 
+     * Returns:
+     * {Boolean} The object is valid object of the given type.
+     */
+    isValidType : function(obj) {
+        if (this.tools.length < this.minItems) {
+            return false;
+        } else {
+            return true;
+        }
+    },
     CLASS_NAME: "OpenLayers.Format.Px3JSON.Tools"
 });

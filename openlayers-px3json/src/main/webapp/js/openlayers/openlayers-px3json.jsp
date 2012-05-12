@@ -6,6 +6,7 @@
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/Services.js"></script>
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/ServiceGroups.js"></script>
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/Fields.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/SpatialReference.js"></script>
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/Locators.js"></script>
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/BandwidthTestEndpoints.js"></script>
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/Extents.js"></script>

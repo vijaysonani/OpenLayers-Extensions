@@ -39,7 +39,7 @@ OpenLayers.Format.Px3JSON.MapConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON
 
     /**
      * Property: dynamicUserServicesGroupId
-     * {String} Id of a service group used to keep track of dynamic user services.
+     * {String} Optional. Id of a service group used to keep track of dynamic user services.
      */
     dynamicUserServicesGroupId: null,
 
@@ -84,6 +84,19 @@ OpenLayers.Format.Px3JSON.MapConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON
      * {OpenLayers.Format.Px3JSON.BackgroundMaps[]} An array of objects defining types of background maps.
      */
     backgroundMaps: [],
+    
+    /**
+     * Property: identifyLayerOption
+     * {String} Optional. Default: "esri.tasks.IdentifyParameters.LAYER_OPTION_ALL"
+     * Possible values: "esri.tasks.IdentifyParameters.LAYER_OPTION_ALL",
+     *  "esri.tasks.IdentifyParameters.LAYER_OPTION_TOP",
+     *  "esri.tasks.IdentifyParameters.LAYER_OPTION_VISIBLE"
+     *  
+     *  Information regarding this property could not be found @ 
+     *  https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+     *  But it does appear in /doc/jsapix-config-schema.jsd
+     */
+    identifyLayerOption : "esri.tasks.IdentifyParameters.LAYER_OPTION_ALL",
     
     /**
      * Constructor: OpenLayers.Format.Px3JSON.MapConfig
