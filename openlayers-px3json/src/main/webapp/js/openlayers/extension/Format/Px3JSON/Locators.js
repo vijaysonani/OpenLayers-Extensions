@@ -65,7 +65,7 @@ OpenLayers.Format.Px3JSON.Locators = OpenLayers.Class(OpenLayers.Format.Px3JSON,
             this.fields = new OpenLayers.Format.Px3JSON.Fields(options.fields);
         }
         
-        if (options.spatialReference && Object.keys['spatialReference'].length) {
+        if (options.spatialReference) {
             this.spatialReference = new OpenLayers.Format.Px3JSON.SpatialReference(options.spatialReference);
         }
     },

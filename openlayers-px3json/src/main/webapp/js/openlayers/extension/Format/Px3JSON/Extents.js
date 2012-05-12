@@ -53,10 +53,10 @@ OpenLayers.Format.Px3JSON.Extents = OpenLayers.Class(OpenLayers.Format.Px3JSON, 
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
         
-        if (options.spatialReference && Object.keys['spatialReference'].length) {
+        if (options.spatialReference) {
             this.spatialReference = new OpenLayers.Format.Px3JSON.SpatialReference(options.spatialReference);
         }
-    }
+    },
     
     /**
      * APIMethod: read
