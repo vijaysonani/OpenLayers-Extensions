@@ -3,8 +3,10 @@ OpenLayers.Format.Px3JSON.ServiceControls = OpenLayers.Class(OpenLayers.Format.P
     /**
     * Class: OpenLayers.Format.Px3JSON.ServiceControls
     * 
+    * Service Control Object
+    * 
     * @requires OpenLayers/Format/Px3JSON.js
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
     
     /**

@@ -1,13 +1,15 @@
 OpenLayers.Format.Px3JSON.LayoutConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.LayoutConfig
+    * Class: OpenLayers.Format.Px3JSON.LayoutConfig (Base Context)
+    * 
+    * Layout Configuration Object
     * 
     * An object containing various properties used to setup the layout of the application.
     *
     * @requires OpenLayers/Format/Px3JSON.js  
     * @requires OpenLayers/Format/Px3JSON/OverlayGroups.js
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
      /**

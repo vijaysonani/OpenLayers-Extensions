@@ -1,15 +1,16 @@
 OpenLayers.Format.Px3JSON.RouterConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.RouterConfig
+    * Class: OpenLayers.Format.Px3JSON.RouterConfig (Px3 Viewer Unique, Not Used in TNM)
+    * 
+    * Router Configuration Object
     * 
     * An object containing configuration information related to the router. 
     * This is included in the NGA Palanterra x3 Toolbox, 
     * but not used by USGS The National Map
     * 
     * @requires OpenLayers/Format/Px3JSON.js
-    * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**

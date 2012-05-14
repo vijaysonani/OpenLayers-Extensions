@@ -1,13 +1,14 @@
 OpenLayers.Format.Px3JSON.SearchConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.SearchConfig
+    * Class: OpenLayers.Format.Px3JSON.SearchConfig (Px3 Viewer Unique)
+    * 
+    * Search Configuration Object
     * 
     * An object used to configure the search function.
     * 
     * @requires OpenLayers/Format/Px3JSON.js
-    * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * z2see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**

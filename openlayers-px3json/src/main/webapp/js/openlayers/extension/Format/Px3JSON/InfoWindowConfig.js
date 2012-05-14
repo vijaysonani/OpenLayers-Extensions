@@ -1,14 +1,15 @@
 OpenLayers.Format.Px3JSON.InfoWindowConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.InfoWindowConfig
+    * Class: OpenLayers.Format.Px3JSON.InfoWindowConfig (Px3 Viewer Unique)
+    * 
+    * Info Window Configuration Object
     * 
     * An object containing configuration information related to the info window.
     * 
     * @requires OpenLayers/Format/Px3JSON.js
     * @requires OpenLayers/Format/Px3JSON/SearchConfig.js
-    * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**

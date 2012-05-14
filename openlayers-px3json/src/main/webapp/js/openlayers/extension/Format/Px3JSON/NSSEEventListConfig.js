@@ -1,15 +1,16 @@
 OpenLayers.Format.Px3JSON.NSSEEventListConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.NSSEEventListConfig
+    * Class: OpenLayers.Format.Px3JSON.NSSEEventListConfig (Px3 Viewer Unique, event display sites only)
+    * 
+    * NSEE Event List Configuration Object
     * 
     * An object containing configuration information related to the NSSE event 
     * list. This is included in the NGA Palanterra x3 Toolbox, 
     * but not used by USGS The National Map
     *
     * @requires OpenLayers/Format/Px3JSON.js
-    * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**

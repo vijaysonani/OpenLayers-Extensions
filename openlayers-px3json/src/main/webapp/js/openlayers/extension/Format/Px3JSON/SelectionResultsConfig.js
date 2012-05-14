@@ -1,11 +1,11 @@
 OpenLayers.Format.Px3JSON.SelectionResultsConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.SelectionResultsConfig
+    * Class: OpenLayers.Format.Px3JSON.SelectionResultsConfig (Px3 Viewer Unique)
     * 
     * An object containing configuration information related to the selection results.
     * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**

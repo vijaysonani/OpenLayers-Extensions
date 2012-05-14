@@ -1,13 +1,15 @@
 OpenLayers.Format.Px3JSON.Locators = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
         
     /**
-    * Class: OpenLayers.Format.Px3JSON.Locators
+    * Class: OpenLayers.Format.Px3JSON.Locators (Px3 Viewer Unique)
+    * 
+    * Locator Object
+    * 
     * The locators object can be thought of as a hash map with the key being the
     * locator id and value a locator configuration object.
     * 
     * @requires OpenLayers/Format/Px3JSON/Fields.js
-    * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
     
     /**
@@ -21,9 +23,10 @@ OpenLayers.Format.Px3JSON.Locators = OpenLayers.Class(OpenLayers.Format.Px3JSON,
     /**
      * Property: spatialReference
      * {String} Spatial Reference of the locator.
-     */
-     // TODO- This can probably immediately be made into an OpenLayers spatial reference
-     // but the API calls for it to be a string
+     *
+     * TODO- This can probably immediately be made into an OpenLayers spatial reference
+     * but the API calls for it to be a string
+     */ 
     spatialReference: null,
     
     /**
