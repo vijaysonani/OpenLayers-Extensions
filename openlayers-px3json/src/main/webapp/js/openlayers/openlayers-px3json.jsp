@@ -15,3 +15,8 @@
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/MapConfig.js"></script>
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/BackgroundMaps.js"></script>
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/ServiceControls.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/LayoutConfig.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/OverlayGroups.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/SearchConfig.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/InfoWindowConfig.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/RouterConfig.js"></script>

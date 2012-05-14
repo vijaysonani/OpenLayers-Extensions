@@ -95,13 +95,30 @@ OpenLayers.Format.Px3JSON.v17 = OpenLayers.Class({
                         }
                     }
                     break;
-                 case 'mapConfig' :
+                case 'mapConfig' :
                     obj = new OpenLayers.Format.Px3JSON.MapConfig(val);
                     if (obj.isValidType(obj)) {
                         this[option] = obj;
                     }
                     break;                   
-                    
+                case 'layoutConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.LayoutConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break; 
+                case 'infoWindowConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.InfoWindowConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;  
+                case 'routerConfig' :
+                    obj = new OpenLayers.Format.Px3JSON.RouterConfig(val);
+                    if (obj.isValidType(obj)) {
+                        this[option] = obj;
+                    }
+                    break;                  
             }
         }
         var a = 1;
