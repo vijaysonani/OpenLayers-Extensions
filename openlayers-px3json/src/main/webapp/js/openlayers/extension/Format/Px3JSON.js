@@ -1,7 +1,3 @@
-/**
- * @requires OpenLayers/Format/Px3JSON/v17.js
- * @requires OpenLayers/Format/Px3JSON/Service.js
- */
 
 /**
  * Class: OpenLayers.Format.Px3JSON
