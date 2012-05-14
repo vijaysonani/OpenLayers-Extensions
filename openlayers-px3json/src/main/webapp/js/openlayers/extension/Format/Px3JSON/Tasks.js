@@ -43,7 +43,7 @@ OpenLayers.Format.Px3JSON.Tasks = OpenLayers.Class({
     
     /**
      * Property: classification
-     * {Object} Optional. Valid values are:
+     * {String} Optional. Valid values are:
      * "UNCLASSIFIED", "CONFIDENTIAL", "SECRET", and "TOP SECRET". 
      * This will be used if displaySecurityBanners or displayTocSecurityMarkings in the
      */

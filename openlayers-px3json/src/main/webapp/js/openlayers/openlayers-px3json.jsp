@@ -10,3 +10,8 @@
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/BandwidthTestEndpoints.js"></script>
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/Extents.js"></script>
 <script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/Tasks.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/Tools.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/ToolConfiguration.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/MapConfig.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/BackgroundMaps.js"></script>
+<script type="text/javascript" src="${param['relPath']}js/openlayers/extension/Format/Px3JSON/ServiceControls.js"></script>
