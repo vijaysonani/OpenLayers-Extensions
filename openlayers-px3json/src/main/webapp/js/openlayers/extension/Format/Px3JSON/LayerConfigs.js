@@ -4,10 +4,10 @@ OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class(OpenLayers.Format.Px3JS
     * 
     * Layer Configuration Object
     * 
-    * @requires OpenLayers/Format/Px3JSON/InfoTemplate.js
     * @requires OpenLayers/Format/Px3JSON.js
-    *  
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @requires OpenLayers/Format/Px3JSON/InfoTemplate.js
+    * 
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**
@@ -46,8 +46,8 @@ OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class(OpenLayers.Format.Px3JS
         OpenLayers.Util.applyDefaults(this, options);
         this.options = options;
         
-        if (options.infoTemplate) {
-            this.infoTemplate = new OpenLayers.Format.Px3JSON.InfoTemplates(options.infoTemplate);
+        if (this.options.infoTemplate) {
+            this.infoTemplate = new OpenLayers.Format.Px3JSON.InfoTemplates(this.options.infoTemplate);
         }
     },
     

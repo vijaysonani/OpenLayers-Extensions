@@ -1,14 +1,15 @@
 OpenLayers.Format.Px3JSON.WMSErrorConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.WMSErrorConfig
+    * Class: OpenLayers.Format.Px3JSON.WMSErrorConfig (Px3 Viewer Unique)
     * 
     * An object containing configuration information related to showing error 
     * messages on WMS layer interaction.
     * 
-    * @requires OpenLayers/Format/Px3JSON.js
+    * WMS Error Messge Configuration Object
     * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @requires OpenLayers/Format/Px3JSON.js
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**

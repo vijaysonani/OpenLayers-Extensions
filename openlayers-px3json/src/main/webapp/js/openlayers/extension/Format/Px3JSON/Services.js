@@ -9,9 +9,10 @@ OpenLayers.Format.Px3JSON.Services = OpenLayers.Class(OpenLayers.Format.Px3JSON,
     * the service id and value being a service configuration object.
     * 
     *  @requires OpenLayers/Format/Px3JSON.js
-    *  @requires OpenLayers/Format/Px3JSON/LayerConfig.js
+    *  @requires OpenLayers/Format/Px3JSON/LayerConfigs.js
+    *  @requires OpenLayers/Format/Px3JSON/InfoTemplates.js
+    *  
     *  @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
-    * 
     */
     
     /**

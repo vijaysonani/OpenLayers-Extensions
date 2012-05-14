@@ -1,13 +1,14 @@
 OpenLayers.Format.Px3JSON.GMTIConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
-    * Class: OpenLayers.Format.Px3JSON.GMTIConfig
+    * Class: OpenLayers.Format.Px3JSON.GMTIConfig (Px3 Viewer Unique, not used by TNM)
+    * 
+    * An object containing configuration information related to GMTI 
+    * functionality and validation. This is included in the NGA Palanterra x3 
+    * Toolbox, but not used by USGS The National Map
     * 
     * @requires OpenLayers/Format/Px3JSON.js
-    * 
-    * An object containing configuration information related to the selection results.
-    * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+    * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**

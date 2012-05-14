@@ -1,5 +1,8 @@
 /**
  * Class: OpenLayers.Format.Px3JSON
+ * 
+ * NGA Palanterra x3 and USGS The National Map Viewer Configuration
+ * 
  */
 OpenLayers.Format.Px3JSON = OpenLayers.Class(OpenLayers.Format.JSON, {
     

@@ -8,6 +8,7 @@ OpenLayers.Format.Px3JSON.Locators = OpenLayers.Class(OpenLayers.Format.Px3JSON,
     * The locators object can be thought of as a hash map with the key being the
     * locator id and value a locator configuration object.
     * 
+    * @requires OpenLayers/Format/Px3JSON.js
     * @requires OpenLayers/Format/Px3JSON/Fields.js
     * @see https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
@@ -94,7 +95,7 @@ OpenLayers.Format.Px3JSON.Locators = OpenLayers.Class(OpenLayers.Format.Px3JSON,
      * {Boolean} The object is valid ServiceGroups object of the given type.
      */
     isValidType : function(obj) {
-        if (obj.version !== '9.3.1' && obj.version !== '10') {
+        if (obj.version !== null && obj.version !== '9.3.1' && obj.version !== '10') {
             return false;
         }
         return true;
