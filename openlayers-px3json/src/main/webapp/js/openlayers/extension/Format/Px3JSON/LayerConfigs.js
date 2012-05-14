@@ -44,10 +44,9 @@ OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class(OpenLayers.Format.Px3JS
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
         
-        if (this.options.infoTemplate) {
-            this.infoTemplate = new OpenLayers.Format.Px3JSON.InfoTemplates(this.options.infoTemplate);
+        if (options.infoTemplate) {
+            this.infoTemplate = new OpenLayers.Format.Px3JSON.InfoTemplates(options.infoTemplate);
         }
     },
     

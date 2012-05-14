@@ -44,11 +44,10 @@ OpenLayers.Format.Px3JSON.BackgroundMaps = OpenLayers.Class(OpenLayers.Format.Px
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
-        if (this.options.serviceControls) {
+        if (options.serviceControls) {
             this.serviceControls = [];
-            for (var serviceControlsIndex = 0;serviceControlsIndex < this.options.serviceControls.length;serviceControlsIndex++) {
-                this.serviceControls.push(new OpenLayers.Format.Px3JSON.ServiceControls(this.options.serviceControls[serviceControlsIndex]));
+            for (var serviceControlsIndex = 0;serviceControlsIndex < options.serviceControls.length;serviceControlsIndex++) {
+                this.serviceControls.push(new OpenLayers.Format.Px3JSON.ServiceControls(options.serviceControls[serviceControlsIndex]));
             }
         }
     },

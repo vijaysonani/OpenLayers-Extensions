@@ -63,10 +63,9 @@ OpenLayers.Format.Px3JSON.Locators = OpenLayers.Class(OpenLayers.Format.Px3JSON,
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
-        this.options = options;
         
-        if (this.options.fields && Object.keys['fields'].length) {
-            this.fields = new OpenLayers.Format.Px3JSON.Fields(this.options.fields);
+        if (options.fields && Object.keys['fields'].length) {
+            this.fields = new OpenLayers.Format.Px3JSON.Fields(options.fields);
         }
     },
     
