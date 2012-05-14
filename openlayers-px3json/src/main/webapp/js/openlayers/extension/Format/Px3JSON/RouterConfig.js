@@ -12,7 +12,7 @@ OpenLayers.Format.Px3JSON.RouterConfig = OpenLayers.Class({
    
     /**
      * Property: locator
-     * {Boolean} Id of the locator to be used during a routing task.
+     * {String} Id of the locator to be used during a routing task.
      */
     locator: null,
 
