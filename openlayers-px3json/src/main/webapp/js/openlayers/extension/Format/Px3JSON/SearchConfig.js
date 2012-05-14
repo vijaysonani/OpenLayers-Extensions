@@ -19,7 +19,7 @@ OpenLayers.Format.Px3JSON.SearchConfig = OpenLayers.Class(OpenLayers.Format.Px3J
 
     /**
      * Property: searchZoomLevel
-     * {Number} The level to zoom to on a successful search.
+     * {Integer} The level to zoom to on a successful search.
      */
     searchZoomLevel: null,
 

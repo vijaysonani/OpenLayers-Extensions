@@ -2,7 +2,7 @@ OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class(OpenLayers.Format.Px3JS
     /**
     * Class: OpenLayers.Format.Px3JSON.LayerConfig
     * 
-    * Layer Configuration Object
+    * Layer Configuration Object. Assoc. array key indicates layer id
     * 
     * @requires OpenLayers/Format/Px3JSON.js
     * @requires OpenLayers/Format/Px3JSON/InfoTemplate.js
@@ -17,6 +17,13 @@ OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class(OpenLayers.Format.Px3JS
      * {String} 
      */
     id: null,
+    
+    /**
+     * Property: clickIdentifyFields
+     * {String[]} Optional. 
+     * See /doc/jsapix-config-schema.jsd
+     */
+    clickIdentifyFields : [],
     
     /**
      * Property: identifiable

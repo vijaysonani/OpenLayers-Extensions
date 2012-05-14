@@ -14,33 +14,49 @@ OpenLayers.Format.Px3JSON.Extents = OpenLayers.Class(OpenLayers.Format.Px3JSON, 
     
     /**
      * Property: xmin
-     * {Number} Bottom-left X-coordinate of an extent envelope.
+     * {Double} Bottom-left X-coordinate of an extent envelope.
      */
     xmin: null,
     
     /**
      * Property: ymin
-     * {Number} Bottom-left Y-coordinate of an extent envelope.
+     * {Double} Bottom-left Y-coordinate of an extent envelope.
      */
     ymin: null,
    
     /**
      * Property: xmax
-     * {Number} Top-right X-coordinate of an extent envelope.
+     * {Double} Top-right X-coordinate of an extent envelope.
      */
     xmax: null,
        
     /**
      * Property: ymax
-     * {Number} Top-right Y-coordinate of an extent envelope.
+     * {Double} Top-right Y-coordinate of an extent envelope.
      */
     ymax: null,
        
     /**
      * Property: spatialReference
-     * {Object} Spatial reference of the extent.
-     */
+     * {OpenLayers.Format.Px3JSON.SpatialReference} Spatial Reference of the extent.
+     */ 
     spatialReference: null,
+    
+    /**
+     * Constructor: OpenLayers.Px3JSON.Extents
+     * Construct an OpenLayers.Px3JSON.Extents object
+     * 
+     * Parameters:
+     * options - {Object} Optional object whose properties will be set on
+     *     the object.
+     */
+    initialize: function(options) {
+        OpenLayers.Util.applyDefaults(this, options);
+        
+        if (options.spatialReference && Object.keys['spatialReference'].length) {
+            this.spatialReference = new OpenLayers.Format.Px3JSON.SpatialReference(options.spatialReference);
+        }
+    }
     
     /**
      * APIMethod: read

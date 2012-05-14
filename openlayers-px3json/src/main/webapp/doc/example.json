@@ -1,0 +1,1248 @@
+{
+	"services":{
+		"TNM_Large_Scale_Imagery":{
+			"id":"TNM_Large_Scale_Imagery",
+			"url":"http://raster.nationalmap.gov/ArcGIS/rest/services/TNM_Large_Scale_Imagery/MapServer",
+			"soapEndpoint":"http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery/MapServer",
+			"metadataUrl":"http://raster.nationalmap.gov/ArcGIS/rest/services/TNM_Large_Scale_Imagery/MapServer",
+			"displayName":"Imagery - Large Scale",
+			"imageFormat":"jpg",
+			"type":"dynamic",
+			"opacity":1,
+			"drawOrder":1,
+			"layers":{}
+		},		
+		"TNM_Small_Scale_Imagery":{
+			"id":"TNM_Small_Scale_Imagery",
+			"url":"http://raster1.nationalmap.gov/ArcGIS/rest/services/TNM_Small_Scale_Imagery/MapServer",
+			"soapEndpoint":"http://raster1.nationalmap.gov/ArcGIS/services/TNM_Small_Scale_Imagery/MapServer",
+			"metadataUrl":"http://raster1.nationalmap.gov/ArcGIS/rest/services/TNM_Small_Scale_Imagery/MapServer",
+			"displayName":"Imagery - Small Scale",
+			"type":"tiled",
+			"opacity":1,
+			"drawOrder":2,
+			"layers":{}
+		},
+		"TNM_Small_Scale_Shaded_Relief":{
+			"id":"TNM_Small_Scale_Shaded_Relief",
+			"url":"http://raster1.nationalmap.gov/ArcGIS/rest/services/TNM_Small_Scale_Shaded_Relief/MapServer",
+			"soapEndpoint":"http://raster1.nationalmap.gov/ArcGIS/services/TNM_Small_Scale_Shaded_Relief/MapServer",
+			"metadataUrl":"http://raster1.nationalmap.gov/ArcGIS/rest/services/TNM_Small_Scale_Shaded_Relief/MapServer",
+			"displayName":"Shaded Relief - Small Scale",
+			"type":"tiled",
+			"opacity":0.8,
+			"drawOrder":2,
+			"layers":{}
+		},		
+		"TNM_Medium_Scale_Shaded_Relief":{
+			"id":"TNM_Medium_Scale_Shaded_Relief",
+			"url":"http://raster1.nationalmap.gov/ArcGIS/rest/services/TNM_Medium_Scale_Shaded_Relief/MapServer",
+			"soapEndpoint":"http://raster1.nationalmap.gov/ArcGIS/services/TNM_Medium_Scale_Shaded_Relief/MapServer",
+			"metadataUrl":"http://raster1.nationalmap.gov/ArcGIS/rest/services/TNM_Medium_Scale_Shaded_Relief/MapServer",
+			"displayName":"Shaded Relief - Medium Scale",
+			"type":"tiled",
+			"opacity":0.8,
+			"drawOrder":2,
+			"layers":{}
+		},		
+		"TNM_Large_Scale_Shaded_Relief":{
+			"id":"TNM_Large_Scale_Shaded_Relief",
+			"url":"http://raster.nationalmap.gov/ArcGIS/rest/services/TNM_Large_Scale_Shaded_Relief/MapServer",
+			"soapEndpoint":"http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Shaded_Relief/MapServer",
+			"metadataUrl":"http://raster.nationalmap.gov/ArcGIS/rest/services/TNM_Large_Scale_Shaded_Relief/MapServer",
+			"displayName":"Shaded Relief - Large Scale",
+			"type":"dynamic",
+			"imageFormat":"jpg",
+			"opacity":0.8,
+			"drawOrder":2,
+			"layers":{}
+		},
+		"TNM_DRG":{
+			"id":"TNM_DRG",
+			"url":"http://raster.nationalmap.gov/ArcGIS/rest/services/DRG/TNM_Digital_Raster_Graphics/MapServer",
+			"soapEndpoint":"http://raster.nationalmap.gov/ArcGIS/services/DRG/TNM_Digital_Raster_Graphics/MapServer",
+			"metadataUrl":"http://raster.nationalmap.gov/ArcGIS/rest/services/DRG/TNM_Digital_Raster_Graphics/MapServer",
+			"displayName":"Scanned Topo Maps",
+			"layersDefaultIdentifiable":false,
+			"type":"dynamic",
+			"opacity":0.75,
+			"drawOrder":3,
+			"layers":{}
+		},
+		"TNM_Vector_Fills_Small":{
+			"id":"TNM_Vector_Fills_Small",
+			"url":"http://basemap.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Fills_Small/MapServer",
+			"soapEndpoint":"http://basemap.nationalmap.gov/ArcGIS/services/TNM_Vector_Fills_Small/MapServer",
+			"metadataUrl":"http://basemap.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Fills_Small/MapServer",
+			"displayName":"Vector Fills - Small Scale",
+			"layersDefaultIdentifiable":false,
+			"type":"tiled",
+			"opacity":0.7,
+			"drawOrder":5,
+			"layers":{}
+		},				
+		"TNM_Vector_Fills_Large":{
+			"id":"TNM_Vector_Fills_Large",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Fills_Large/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/TNM_Vector_Fills_Large/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Fills_Large/MapServer",
+			"displayName":"Vector Fills - Large Scale",
+			"layersDefaultIdentifiable":false,
+			"type":"dynamic",
+			"opacity":0.7,
+			"drawOrder":5,
+			"layers":{}
+		},		
+		"TNM_Vector_Fills_Small_light":{
+			"id":"TNM_Vector_Fills_Small_light",
+			"url":"http://basemap.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Fills_Small/MapServer",
+			"soapEndpoint":"http://basemap.nationalmap.gov/ArcGIS/services/TNM_Vector_Fills_Small/MapServer",
+			"metadataUrl":"http://basemap.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Fills_Small/MapServer",
+			"displayName":"Vector Fills - Small Scale",
+			"layersDefaultIdentifiable":false,
+			"type":"tiled",
+			"opacity":0.3,
+			"drawOrder":5,
+			"layers":{}
+		},				
+		"TNM_Vector_Fills_Large_light":{
+			"id":"TNM_Vector_Fills_Large_light",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Fills_Large/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/TNM_Vector_Fills_Large/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Fills_Large/MapServer",
+			"displayName":"Vector Fills - Large Scale",
+			"layersDefaultIdentifiable":false,
+			"type":"dynamic",
+			"opacity":0.3,
+			"drawOrder":5,
+			"layers":{}
+		},
+		"usgsEcosystems":{
+			"id":"usgsEcosystems",
+			"url":"http://rmgsc.cr.usgs.gov/ArcGIS/rest/services/ecosys_US/MapServer",
+			"soapEndpoint":"http://rmgsc.cr.usgs.gov/ArcGIS/services/ecosys_US/MapServer",
+			"metadataUrl":"http://rmgsc.cr.usgs.gov/ArcGIS/rest/services/ecosys_US/MapServer",
+			"displayName":"USGS Ecosystems",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":0.5,
+			"drawOrder":6,
+			"layers":{}
+		},
+		"usgsGAPLandCover":{
+			"id":"usgsGAPLandCover",
+			"url":"http://gis1.usgs.gov/arcgis/rest/services/gap/gap_lc_level_2/MapServer",
+			"soapEndpoint":"http://gis1.usgs.gov/arcgis/services/gap/gap_lc_level_2/MapServer",
+			"metadataUrl":"http://gis1.usgs.gov/arcgis/rest/services/gap/gap_lc_level_2/MapServer",
+			"displayName":"USGS GAP Land Cover",
+			"layersDefaultIdentifiable":true,
+			"type":"tiled",
+			"opacity":0.5,
+			"drawOrder":6,
+			"layers":{}
+		},
+		"usgsPADUSOwner":{
+			"id":"usgsPADUSOwner",
+			"url":"http://gis1.usgs.gov/arcgis/rest/services/gap/PADUS_Owner/MapServer",
+			"soapEndpoint":"http://gis1.usgs.gov/arcgis/services/gap/PADUS_Owner/MapServer",
+			"metadataUrl":"http://gis1.usgs.gov/arcgis/rest/services/gap/PADUS_Owner/MapServer",
+			"displayName":"USGS Protected Area Owner (PADUS)",
+			"layersDefaultIdentifiable":true,
+			"type":"tiled",
+			"opacity":0.5,
+			"drawOrder":6,
+			"layers":{}
+		},
+		"usgsPADUSStatus":{
+			"id":"usgsPADUSStatus",
+			"url":"http://gis1.usgs.gov/arcgis/rest/services/gap/PADUS_Status/MapServer",
+			"soapEndpoint":"http://gis1.usgs.gov/arcgis/services/gap/PADUS_Status/MapServer",
+			"metadataUrl":"http://gis1.usgs.gov/arcgis/rest/services/gap/PADUS_Status/MapServer",
+			"displayName":"USGS Protected Area Conservation Status (PADUS)",
+			"layersDefaultIdentifiable":true,
+			"type":"tiled",
+			"opacity":0.5,
+			"drawOrder":6,
+			"layers":{}
+		},
+		"blmPLSS":{
+			"id":"blmPLSS",
+			"url":"http://www.geocommunicator.gov/ArcGIS/rest/services/PLSS/MapServer",
+			"soapEndpoint":"http://www.geocommunicator.gov/ArcGIS/services/PLSS/MapServer",
+			"metadataUrl":"http://www.geocommunicator.gov/ArcGIS/rest/services/PLSS/MapServer",
+			"displayName":"BLM Public Land Survey (PLSS)",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":0.5,
+			"drawOrder":6,
+			"layers":{}
+		},
+		"LandCover":{
+			"id":"LandCover",
+			"url":"http://raster.nationalmap.gov/ArcGIS/rest/services/TNM_LandCover/MapServer",
+			"soapEndpoint":"http://raster.nationalmap.gov/ArcGIS/services/TNM_LandCover/MapServer",
+			"metadataUrl":"http://raster.nationalmap.gov/ArcGIS/rest/services/TNM_LandCover/MapServer",
+			"displayName":"Land Cover",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":0.5,
+			"drawOrder":6,
+			"layers":{}
+		},
+		"TNM_Large_Scale_Imagery_Overlay":{
+			"id":"TNM_Large_Scale_Imagery_Overlay",
+			"url":"http://raster.nationalmap.gov/ArcGIS/rest/services/TNM_Large_Scale_Imagery_Overlay/MapServer",
+			"soapEndpoint":"http://raster.nationalmap.gov/ArcGIS/services/TNM_Large_Scale_Imagery_Overlay/MapServer",
+			"metadataUrl":"http://raster.nationalmap.gov/ArcGIS/rest/services/TNM_Large_Scale_Imagery_Overlay/MapServer",
+			"displayName":"Imagery",
+			"imageFormat":"jpg",
+			"type":"dynamic",
+			"opacity":1,
+			"drawOrder":6,
+			"layers":{}
+		},
+		"nhss_weat":{
+			"id":"nhss_weat",
+			"url":"http://rmgsc.cr.usgs.gov/ArcGIS/rest/services/nhss_weat/MapServer",
+			"soapEndpoint":"http://rmgsc.cr.usgs.gov/ArcGIS/services/nhss_weat/MapServer",
+			"metadataUrl":"http://rmgsc.cr.usgs.gov/ArcGIS/rest/services/nhss_weat/MapServer",
+			"displayName":"USGS Hazards & Warnings",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":0.65,
+			"refreshIntervalSeconds":900,
+			"drawOrder":6,
+			"layers":{
+				"0":{"id":0, "identifiable":true, "infoTemplate":{ "title":"${EVENT}", "content":"<table><tr><td>Layer:<td>Watches/Warnings<tr><td>Event:<td><a href='${WEB}' target='_blank'>${EVENT}</a><tr><td>Effective:<td>${EFFECTIVE}<tr><td>Expires:<td>${EXPIRES}</td></tr></table>"}}
+			}
+		},
+		"nexrad":{
+			"id":"nexrad",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/NEXRAD_Weather/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/NEXRAD_Weather/MapServer", "metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/NEXRAD_Weather/MapServer",
+			"displayName":"NEXRAD Weather",
+			"layersDefaultIdentifiable":false,
+			"refreshIntervalSeconds":900,
+			"type":"dynamic",
+			"opacity":0.65,
+			"drawOrder":7,
+			"layers":{}
+		},
+		"TNM_Contours_Small_Beta":{
+			"id":"TNM_Contours_Small_Beta",
+			"url":"http://basemap.nationalmap.gov/ArcGIS/rest/services/TNM_Contours/MapServer",
+			"soapEndpoint":"http://basemap.nationalmap.gov/ArcGIS/services/TNM_Contours/MapServer",
+			"metadataUrl":"http://basemap.nationalmap.gov/ArcGIS/rest/services/TNM_Contours/MapServer",
+			"displayName":"Contours - Small Scale",
+			"layersDefaultIdentifiable":true,
+			"type":"tiled",
+			"opacity":1,
+			"drawOrder":8,
+			"layers":{
+				"0":{"id":0, "identifiable":false },
+				"1":{"id":1, "identifiable":true, "infoTemplate":{ "title":"${CONTOURELEVATION}", "content":"<table><tr><td>Layer:<td>Contours - 100 foot<tr><td>Contour Units:<td>${CONTOURUNITS}<tr><td>Fcode:<td>${FCODE}<tr><td>Contour Interval:<td>${CONTOURINTERVAL}<tr><td>Cell ID:<td>${CELL_ID}<tr><td>Process Date:<td>${PROCESSDATE}<tr><td>Map ID:<td>${MAPID}<tr><td>NED Resolution:<td>${NEDRESOLUTION}<tr><td>NED Date:<td>${NEDDATE}</td></tr></table>"}},
+				"2":{"id":2, "identifiable":false },
+				"3":{"id":3, "identifiable":true, "infoTemplate":{ "title":"${CONTOURELEVATION}", "content":"<table><tr><td>Layer:<td>Contours - 50 foot<tr><td>Contour Units:<td>${CONTOURUNITS}<tr><td>Fcode:<td>${FCODE}<tr><td>Contour Interval:<td>${CONTOURINTERVAL}<tr><td>Cell ID:<td>${CELL_ID}<tr><td>Process Date:<td>${PROCESSDATE}<tr><td>Map ID:<td>${MAPID}<tr><td>NED Resolution:<td>${NEDRESOLUTION}<tr><td>NED Date:<td>${NEDDATE}</td></tr></table>"}}
+			}
+		},
+		"TNM_Vector_Small":{
+			"id":"TNM_Vector_Small",
+			"url":"http://basemap.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Small/MapServer",
+			"soapEndpoint":"http://basemap.nationalmap.gov/ArcGIS/services/TNM_Vector_Small/MapServer",
+			"metadataUrl":"http://basemap.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Small/MapServer",
+			"displayName":"Vector Base Map - Small Scale",
+			"layersDefaultIdentifiable":false,
+			"type":"tiled",
+			"opacity":1,
+			"drawOrder":9,
+			"layers":{}
+		},		
+		"TNM_Vector_Large":{
+			"id":"TNM_Vector_Large",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Large/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/TNM_Vector_Large/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Large/MapServer",
+			"displayName":"Vector Base Map - Large Scale",
+			"layersDefaultIdentifiable":false,
+			"type":"dynamic",
+			"opacity":1,
+			"drawOrder":9,
+			"layers":{}
+		},
+		"Base_map_schema":{
+			"id":"Base_map_schema",
+			"url":"http://basemap.nationalmap.gov/ArcGIS/rest/services/Tasks/Base_map_schema/MapServer",
+			"soapEndpoint":"http://basemap.nationalmap.gov/arcgis/services/Tasks/Base_map_schema/MapServer",
+			"metadataUrl":"http://basemap.nationalmap.gov/ArcGIS/rest/services/Tasks/Base_map_schema/MapServer",
+			"displayName":"Base_map_schema",
+			"layersDefaultIdentifiable":false,
+			"type":"tiled",
+			"opacity":1,
+			"drawOrder":9,
+			"layers":{}
+ 		},
+		"TNM_Blank_US":{
+			"id":"TNM_Blank_US",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/TNM_Blank_US/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/TNM_Blank_US/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/TNM_Blank_US/MapServer",
+			"displayName":"Base Map - Blank",
+			"layersDefaultIdentifiable":false,
+			"type":"dynamic",
+			"opacity":1,
+			"drawOrder":1,
+			"layers":{}
+		},
+		"FWS_Wetlands":{
+			"id":"FWS_Wetlands",
+			"url":"http://wetlandsfws.usgs.gov/ArcGIS/rest/services/FWS_Wetlands_WMS/MapServer",
+			"soapEndpoint":"http://wetlandsfws.usgs.gov/ArcGIS/services/FWS_Wetlands_WMS/MapServer",
+			"metadataUrl":"http://wetlandsfws.usgs.gov/ArcGIS/rest/services/FWS_Wetlands_WMS/MapServer",
+			"displayName":"FWS Wetlands",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":0.8,
+			"drawOrder":10,
+			"layers":{
+				"0":{"id":0, "identifiable":false },
+				"1":{"id":1, "identifiable":true, "infoTemplate":{"title":"Alaska Wetlands", "content":"<table><tr><td>Attribute:<td>${ATTRIBUTE}<tr><td>Acres:<td>${ACRES}<tr><td>Wetland Type:<td>${WETLAND_TYPE}<tr><td>QA/QC Code:<td>${QAQC_CODE}<tr><td>Hist Attribute:<td>${HIST_ATTRIBUTE}</td></tr></table>"}},
+				"2":{"id":2, "identifiable":true, "infoTemplate":{"title":"Continental U.S. Wetlands", "content":"<table><tr><td>Attribute:<td>${ATTRIBUTE}<tr><td>Acres:<td>${ACRES}<tr><td>Wetland Type:<td>${WETLAND_TYPE}</td></tr></table>"}},
+				"3":{"id":3, "identifiable":true, "infoTemplate":{"title":"Continental U.S. Scanned Maps", "content":"<table><tr><td>Project Name:<td>${PROJECT_NAME}<tr><td>Quad ID:<td>${QUAD_ID}</td></tr></table>"}},
+				"4":{"id":4, "identifiable":true, "infoTemplate":{"title":"Hawaii Wetlands", "content":"<table><tr><td>Attribute:<td>${ATTRIBUTE}<tr><td>Acres:<td>${ACRES}<tr><td>Wetland Type:<td>${WETLAND_TYPE}<tr><td>QA/QC Code:<td>${QAQC_CODE}<tr><td>HGM Code:<td>${HGM_CODE}<tr><td>Hist Attribute:<td>${HIST_ATTRIBUTE}</td></tr></table>"}},
+				"5":{"id":5, "identifiable":true, "infoTemplate":{"title":"Pacific Trust Islands Wetlands", "content":"<table><tr><td>Attribute:<td>${ATTRIBUTE}<tr><td>Acres:<td>${ACRES}<tr><td>Wetland Type:<td>${WETLAND_TYPE}<tr><td>QA/QC Code:<td>${QAQC_CODE}<tr><td>HGM Code:<td>${HGM_CODE}<tr><td>Hist Attribute:<td>${HIST_ATTRIBUTE}</td></tr></table>"}},
+				"6":{"id":6, "identifiable":true, "infoTemplate":{"title":"Puerto Rico/Virgin Islands Wetlands", "content":"<table><tr><td>Attribute:<td>${ATTRIBUTE}<tr><td>Acres:<td>${ACRES}<tr><td>Wetland Type:<td>${WETLAND_TYPE}<tr><td>QA/QC Code:<td>${QAQC_CODE}<tr><td>HGM Code:<td>${HGM_CODE}<tr><td>Hist Attribute:<td>${HIST_ATTRIBUTE}</td></tr></table>"}},
+				"7":{"id":7, "identifiable":false },
+				"8":{"id":8, "identifiable":true, "infoTemplate":{"title":"Alaska Metadata", "content":"<table><tr><td>Project Name:<td>${PROJECT_NAME}<tr><td>Status:<td>${STATUS}<tr><td>Supplementary Map Info:<td>${SUPPMAPINFO}<tr><td>FGDC Metadata:<td>${FGDC_METADATA}<tr><td>Data Source:<td>${DATA_SOURCE}<tr><td>Image Year:<td>${IMAGE_YR}<tr><td>Image Date:<td>${IMAGE_DATE}<tr><td>Image Scale:<td>${IMAGE_SCALE}<tr><td>All Scales:<td>${ALL_SCALES}<tr><td>Emulsion:<td>${EMULSION}<tr><td>Image Type:<td>${IMAGE_TYPE}<tr><td>Comments:<td>${COMMENTS}</td></tr></table>"}},
+				"9":{"id":9, "identifiable":false },
+				"10":{"id":10, "identifiable":true, "infoTemplate":{"title":"Continental U.S. Metadata", "content":"<table><tr><td>Project Name:<td>${PROJECT_NAME}<tr><td>Status:<td>${STATUS}<tr><td>Supplementary Map Info:<td>${SUPPMAPINFO}<tr><td>FGDC Metadata:<td>${FGDC_METADATA}<tr><td>Data Source:<td>${DATA_SOURCE}<tr><td>Image Year:<td>${IMAGE_YR}<tr><td>Image Date:<td>${IMAGE_DATE}<tr><td>Image Scale:<td>${IMAGE_SCALE}<tr><td>All Scales:<td>${ALL_SCALES}<tr><td>Emulsion:<td>${EMULSION}<tr><td>Image Type:<td>${IMAGE_TYPE}</td></tr></table>"}},
+				"11":{"id":11, "identifiable":false },
+				"12":{"id":12, "identifiable":true, "infoTemplate":{"title":"Hawaii Metadata and Status", "content":"<table><tr><td>Project Name:<td>${PROJECT_NAME}<tr><td>Status:<td>${STATUS}<tr><td>Supplementary Map Info:<td>${SUPPMAPINFO}<tr><td>FGDC Metadata:<td>${FGDC_METADATA}<tr><td>Data Source:<td>${DATA_SOURCE}<tr><td>Image Year:<td>${IMAGE_YR}<tr><td>Image Date:<td>${IMAGE_DATE}<tr><td>Image Scale:<td>${IMAGE_SCALE}<tr><td>All Scales:<td>${ALL_SCALES}<tr><td>Emulsion:<td>${EMULSION}<tr><td>Image Type:<td>${IMAGE_TYPE}<tr><td>Comments:<td>${COMMENTS}</td></tr></table>"}},
+				"13":{"id":13, "identifiable":true, "infoTemplate":{"title":"Pacific Trust Islands Metadata and Status", "content":"<table><tr><td>Project Name:<td>${PROJECT_NAME}<tr><td>Status:<td>${STATUS}<tr><td>Supplementary Map Info:<td>${SUPPMAPINFO}<tr><td>FGDC Metadata:<td>${FGDC_METADATA}<tr><td>Data Source:<td>${DATA_SOURCE}<tr><td>Image Year:<td>${IMAGE_YR}<tr><td>Image Date:<td>${IMAGE_DATE}<tr><td>Image Scale:<td>${IMAGE_SCALE}<tr><td>All Scales:<td>${ALL_SCALES}<tr><td>Emulsion:<td>${EMULSION}<tr><td>Image Type:<td>${IMAGE_TYPE}<tr><td>Comments:<td>${COMMENTS}</td></tr></table>"}},
+				"14":{"id":14, "identifiable":true, "infoTemplate":{"title":"Puerto Rico/Virgin Islands Metadata and Status", "content":"<table><tr><td>Project Name:<td>${PROJECT_NAME}<tr><td>Status:<td>${STATUS}<tr><td>Supplementary Map Info:<td>${SUPPMAPINFO}<tr><td>FGDC Metadata:<td>${FGDC_METADATA}<tr><td>Data Source:<td>${DATA_SOURCE}<tr><td>Image Year:<td>${IMAGE_YR}<tr><td>Image Date:<td>${IMAGE_DATE}<tr><td>Image Scale:<td>${IMAGE_SCALE}<tr><td>All Scales:<td>${ALL_SCALES}<tr><td>Emulsion:<td>${EMULSION}<tr><td>Image Type:<td>${IMAGE_TYPE}<tr><td>Comments:<td>${COMMENTS}</td></tr></table>"}},
+				"15":{"id":15, "identifiable":false },
+				"16":{"id":16, "identifiable":false },
+				"17":{"id":17, "identifiable":false },
+				"18":{"id":18, "identifiable":true, "infoTemplate":{"title":"Riparian", "content":"<table><tr><td>Attribute:<td>${ATTRIBUTE}<tr><td>Acres:<td>${ACRES}<tr><td>Wetland Type:<td>${WETLAND_TYPE}<tr><td>QA/QC Code:<td>${QAQC_CODE}<tr><td>HGM Code:<td>${HGM_CODE}</td></tr></table>"}}
+			}
+		},
+		"US_Topo":{
+			"id":"US_Topo",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/US_Topo/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/US_Topo/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/US_Topo/MapServer",
+			"displayName":"US Topo Maps",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":0.7,
+			"drawOrder":11,
+			"layers":{
+				"0":{"id":0, "identifiable":true, "infoTemplate":{"title":"${CELL_NAME}", "content":"<table><tr><td>Layer:<td>US Topo<tr><td>Counties:<td>${COUNTIES}<tr><td>Primary State:<td>${PRIMARY_STATE}<tr><td>Date:<td>${FILE_NAME_DATE}<tr><td>Size:<td>${PRETTY_BYTE}</td></tr></table><a href='${DOWNLOAD_URL_SHORT}' target='_blank'>Click here to download GeoPDF</a><br /><img src='${BROWSE_GRAPHIC_URL}' width='85%'/>"}},
+				"1":{"id":1, "identifiable":false},
+				"2":{"id":2, "identifiable":false }
+			}
+		},
+		"vectorSelectablePolygons":{
+			"id":"vectorSelectablePolygons",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/selectable_polygons/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/selectable_polygons/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/selectable_polygons/MapServer",
+			"displayName":"Reference Polygons",
+			"layersDefaultIdentifiable":false,
+			"type":"dynamic",
+			"opacity":1,
+			"drawOrder":12,
+			"layers":{			
+				"1":{"id":1, "identifiable":true, "infoTemplate":{ "title":"${STATE_NAME}", "content":"<p>Layer: State or Territory</p><p><a href='http://geonames.usgs.gov/docs/stategaz/${STATE_ABBR}_Features.zip' target='_blank'>Click here to extract prestaged Names data</a></p>"},
+				"selectionTemplate":"<a href='http://geonames.usgs.gov/docs/stategaz/${STATE_ABBR}_Features.zip' target='_blank'>Download Prestaged Names data</a>"
+				},	
+				
+				"2":{"id":2, "identifiable":true, "infoTemplate":{ "title":"${NAME}", "content":"<p>Layer: 111th Congressional Districts (2009-2011)<br>State: ${STATE_NAME}</p>"}
+				},		
+				
+				"3":{"id":3, "identifiable":true, "infoTemplate":{ "title":"${COUNTY_NAME} (${STCO_FIPSCODE})", "content":"<p>Layer: Counties or Equivalent<br />State: ${STATE_NAME}</p>"}
+				},				
+				
+				"4":{"id":4, "identifiable":true, "infoTemplate":{ "title":"${PLACE_NAME}, ${STATE_NAME}", "content":"<p>Layer: Incorporated Places<br />GNIS ID: ${GNIS_ID}<br>Population (2000): ${POPULATION2000}<br>FIPS Code: ${PLACE_FIPSCODE}</p>"}
+				},
+
+				"5":{"id":5, "identifiable":true, "infoTemplate":{ "title":"${PLACE_NAME}, ${STATE_NAME}", "content":"<p>Layer: Unincorporated Places<br />GNIS ID: ${GNIS_ID}<br>Population (2000): ${POPULATION2000}<br>FIPS Code: ${PLACE_FIPSCODE}</p>"}
+				},
+				
+				"7":{"id":7, "identifiable":true, "infoTemplate":{ "title":"${QUADNAME}", "content":"<p>Layer: Index 100K<br />Centroid: ${CENTLAT}, ${CENTLONG}</p>"}
+				},
+
+				"8":{"id":8, "identifiable":true, "infoTemplate":{ "title":"${QUADNAME}", "content":"<p>Layer: Index 63K (Alaska)<br />Centroid: ${CENTLAT}, ${CENTLONG}</p>"}
+				},				
+				
+				"9":{"id":9, "identifiable":true, "infoTemplate":{ "title":"${CELL_NAME}", "content":"<p>Layer: Index 24K</p>"}
+				}, 
+				
+				"11":{"id":11, "identifiable":true, "infoTemplate":{ "title":"${HUC_2}", "content":"<p>Layer: NHD Regions<br />HUC ID: ${HUC_2}</p>"}
+				},
+				
+				"12":{"id":12, "identifiable":true, "infoTemplate":{ "title":"${HUC_4}", "content":"<p>Layer: NHD Subregions<br />HUC ID: ${HUC_4}</p><p><a href='http://usgs-mrs.cr.usgs.gov/steward/scripts/st2_downloadStaged.pl?huc_4=${HUC_4}&format=pgdbh' target='_blank'>Download Prestaged Personal Geodatabase</a><br><a href='http://usgs-mrs.cr.usgs.gov/steward/scripts/st2_downloadStaged.pl?huc_4=${HUC_4}&format=fgdbh' target='_blank'>Download Prestaged File Geodatabase</a></p>"},
+				"selectionTemplate":"<a href='http://usgs-mrs.cr.usgs.gov/steward/scripts/st2_downloadStaged.pl?huc_4=${HUC_4}&format=pgdbh' target='_blank'>Download Prestaged Personal Geodatabase</a><br><a href='http://usgs-mrs.cr.usgs.gov/steward/scripts/st2_downloadStaged.pl?huc_4=${HUC_4}&format=fgdbh' target='_blank'>Download Prestaged File Geodatabase</a>"
+				},
+				
+				"13":{"id":13, "identifiable":true, "infoTemplate":{ "title":"${HUC_8}", "content":"<p>Layer: NHD Subbasins<br />HUC ID: ${HUC_8}</p>"}
+				}
+			}
+		},		
+		"nhdgeo":{
+			"id":"nhdgeo",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/nhd/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/nhd/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/nhd/MapServer",
+			"displayName":"Hydrography (NHD)",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":1,
+			"drawOrder":13,
+			"layers":{
+				"0":{"id":0, "identifiable":false }, 
+				"1":{"id":2, "identifiable":false },
+				"2":{"id":2, "identifiable":false }, 
+				"3":{"id":2, "identifiable":false }, 
+				"4":{"id":2, "identifiable":false }, 
+				"5":{"id":2, "identifiable":false }, 
+				"6":{"id":2, "identifiable":false }, 
+				"7":{"id":2, "identifiable":false }, 
+				"8":{"id":0, "identifiable":true, "infoTemplate":{ "title":"${HUC_2}", "content":"<table><tr><td>Layer:<td>Regions-Small Scale<tr><td>HUC:<td>${HUC_2}</td></tr></table>"}},
+				"9":{"id":0, "identifiable":true, "infoTemplate":{ "title":"${HUC_2}", "content":"<table><tr><td>Layer:<td>Regions-Large Scale<tr><td>HUC:<td>${HUC_2}</td></tr></table>"}},
+				"10":{"id":3, "identifiable":true, "infoTemplate":{ "title":"${HUC_4}", "content":"<table><tr><td>Layer:<td>Subregions-Small Scale<tr><td>HUC:<td>${HUC_4}</td></tr></table>"}},
+				"11":{"id":3, "identifiable":true, "infoTemplate":{ "title":"${HUC_4}", "content":"<table><tr><td>Layer:<td>Subregions-Large Scale<tr><td>HUC:<td>${HUC_4}</td></tr></table>"}},
+				"12":{"id":7, "identifiable":true, "infoTemplate":{ "title":"${HUC_8}", "content":"<table><tr><td>Layer:<td>Subbasins - small scale<tr><td>HUC:<td>${HUC_8}</td></tr></table>"}},
+				"13":{"id":10, "identifiable":true, "infoTemplate":{ "title":"${HUC_10}", "content":"<table><tr><td>Layer:<td>Watersheds<tr><td>HUC:<td>${HUC_10}<tr><td>HUC Name:<td>${HU_10_NAME}</td></tr></table>"}},
+				"14":{"id":11, "identifiable":true, "infoTemplate":{ "title":"${HUC_12}", "content":"<table><tr><td>Layer:<td>Subwatersheds<tr><td>HUC:<td>${HUC_12}<tr><td>HUC Name:<td>${HU_12_NAME}</td></tr></table>"}},
+				"15":{"id":0, "identifiable":false }, 
+				"16":{"id":2, "identifiable":false },
+				"17":{"id":2, "identifiable":false }, 
+				"18":{"id":2, "identifiable":false }, 
+				"19":{"id":2, "identifiable":false }, 
+				"20":{"id":2, "identifiable":false }, 
+				"21":{"id":2, "identifiable":false }, 
+				"22":{"id":2, "identifiable":false }, 
+				"23":{"id":36, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Point - Medium Resolution<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Reach Code:<td>${REACHCODE}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}},
+				"24":{"id":42, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Flowline - Medium Resolution<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Length (Km):<td>${LENGTHKM}<tr><td>Reach Code:<td>${REACHCODE}<tr><td>Flow Direction:<td>${FlowDir}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}},
+				"25":{"id":38, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Waterbody - Medium Resolution<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Area (Square Km):<td>${AREASQKM}<tr><td>Elevation:<td>${ELEVATION}<tr><td>Reach Code:<td>${REACHCODE}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}},
+				"26":{"id":40, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Area - Medium Resolution<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Area (Square Km):<td>${AREASQKM}<tr><td>Elevation:<td>${ELEVATION}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}},
+				"27":{"id":44, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Line - Medium Resolution<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Length (Km):<td>${LENGTHKM}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}},
+				"28":{"id":0, "identifiable":false }, 
+				"29":{"id":2, "identifiable":false },
+				"30":{"id":2, "identifiable":false }, 
+				"31":{"id":2, "identifiable":false }, 
+				"32":{"id":2, "identifiable":false }, 
+				"33":{"id":2, "identifiable":false }, 
+				"34":{"id":2, "identifiable":false }, 
+				"35":{"id":2, "identifiable":false }, 
+				"36":{"id":24, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Point - High Resolution<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Reach Code:<td>${REACHCODE}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}},
+				"37":{"id":26, "identifiable":true, "infoTemplate":{ "title":"${COMID}", "content":"<table><tr><td>Layer:<td>Point Event - High Resolution<tr><td>ComID:<td>${COMID}<tr><td>Event Date:<td>${EVENTDATE}<tr><td>Reach Code:<td>${Reachcode}<tr><td>Reach Date:<td>${REACHSMDATE}<tr><td>Feature Com ID:<td>${FEATURECOMID}<tr><td>Feature Class Ref:<td>${FeatureClassRef}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>Source Data Description:<td>${SOURCE_DATADESC}<tr><td>Source Data Feature ID:<td>${SOURCE_FEATUREID}<tr><td>Feature Detail URL:<td>${FEATUREDETAILURL}<tr><td>Offset:<td>${OFFSET}<tr><td>Measure:<td>${MEASURE}<tr><td>Event Type:<td>${EventType}</td></tr></table>"}},
+				"38":{"id":31, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Flowline Direction Arrows<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>GNIS Name:<td>${GNIS_NAME}<tr><td>Length (Km):<td>${LENGTHKM}<tr><td>Reach Code:<td>${REACHCODE}<tr><td>Flow Direction:<td>${FlowDir}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Shape:<td>${Shape}</td></tr></table>"}},
+				"39":{"id":31, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Flowline - High Resolution<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Length (Km):<td>${LENGTHKM}<tr><td>Reach Code:<td>${REACHCODE}<tr><td>Flow Direction:<td>${FlowDir}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}},
+				"40":{"id":27, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Waterbody - High Resolution<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Area (Square Km):<td>${AREASQKM}<tr><td>Elevation:<td>${ELEVATION}<tr><td>Reach Code:<td>${REACHCODE}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}},
+				"41":{"id":29, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Area - High Resolution<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Area (Square Km):<td>${AREASQKM}<tr><td>Elevation:<td>${ELEVATION}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}},
+				"42":{"id":33, "identifiable":true, "infoTemplate":{ "title":"${GNIS_NAME}", "content":"<table><tr><td>Layer:<td>Line - High Resolution<tr><td>ComID:<td>${ComID}<tr><td>FDate:<td>${FDATE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Length (Km):<td>${LENGTHKM}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}}
+			}
+		},
+		"transport":{
+			"id":"transport",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/transportation/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/transportation/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/transportation/MapServer",
+			"displayName":"Transportation",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":1,
+			"drawOrder":14,
+			"layers":{
+				"0":{"id":0, "identifiable":false }, 
+				"1":{"id":1, "identifiable":false }, 
+				"2":{"id":2, "identifiable":false }, 
+				"3":{"id":3, "identifiable":false }, 
+				"4":{"id":4, "identifiable":false }, 
+				"5":{"id":5, "identifiable":false }, 
+				"6":{"id":6, "identifiable":false }, 
+				"7":{"id":7, "identifiable":false }, 
+				"8":{"id":8, "identifiable":true, "infoTemplate":{ "title":"${NAME}", "content":"<table><tr><td>Layer:<td>Airport<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Airport Class:<td>${AIRPORT_CLASS}<tr><td>FAA Code:<td>${FAA_AIRPORT_CODE}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}</td></tr></table>"}},
+				"9":{"id":9, "identifiable":true, "infoTemplate":{ "title":"${RUNWAY_ID}", "content":"<table><tr><td>Layer:<td>Airport Runway<tr><td>FAA Airport Code:<td>${FAA_AIRPORT_CODE}<tr><td>Owner Type:<td>${OWNERTYPE}<tr><td>Feature Code:<td>${FCode}<tr><td>Use Status:<td>${USESTATUS}<tr><td>City:<td>${CITY}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>Source Feature ID:<td>${SOURCE_FEATUREID}</td></tr></table>"}},
+				"10":{"id":10, "identifiable":true, "infoTemplate":{ "title":"${INTERSTATE}", "content":"<table><tr><td>Layer:<td>Interstate<tr><td>Road Class:<td>${Road_Class}</td></tr></table>"}},
+				"11":{"id":11, "identifiable":true, "infoTemplate":{ "title":"${US_ROUTE}", "content":"<table><tr><td>Layer:<td>U.S. Route<tr><td>Road Class:<td>${ROAD_CLASS}</td></tr></table>"}},
+				"12":{"id":12, "identifiable":true, "infoTemplate":{ "title":"${STATE_ROUTE}", "content":"<table><tr><td>Layer:<td>State Route<tr><td>Road Class:<td>${ROAD_CLASS}</td></tr></table>"}},
+				"13":{"id":13, "identifiable":true, "infoTemplate":{ "title":"${COUNTY_ROUTE}", "content":"<table><tr><td>Layer:<td>County Route<tr><td>Road Class:<td>${ROAD_CLASS}</td></tr></table>"}},
+				"14":{"id":14, "identifiable":true, "infoTemplate":{ "title":"${NAME}", "content":"<table><tr><td>Layer:<td>Railroad<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Rail Class:<td>${RAIL_CLASS}<tr><td>Rail Usage:<td>${RAIL_USAGE}<tr><td>FCode:<td>${FCode}<tr><td>Owner:<td>${OWNER}<tr><td>Length (Km):<td>${LENGTHKM}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>Source Feature ID:<td>${SOURCE_FEATUREID}</td></tr></table>"}},
+				"15":{"id":15, "identifiable":true, "infoTemplate":{ "title":"${FULL_STREET_NAME}", "content":"<table><tr><td>Layer:<td>Local Road<tr><td>Road Class:<td>${ROAD_CLASS}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>CFCC Code:<td>${CFCC_CODE}<tr><td>Federal Lands Route:<td>${FEDERAL_LANDS_ROUTE}<tr><td>Surface Type:<td>${SURFACE_TYPE}</td></tr></table>"}}
+			}
+		},
+		"structures":{
+			"id":"structures",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/structures/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/structures/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/structures/MapServer",
+			"displayName":"Structures",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":1,
+			"drawOrder":14,
+			"layers":{
+					"0":{"id":0,"identifiable":false },
+					"1":{"id":1,"identifiable":true, "infoTemplate":{"title":"Campground", "content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}},
+					"2":{"id":2,"identifiable":true,"infoTemplate":{"title":"Cemetery", "content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}},
+					"3":{"id":3,"identifiable":true,"infoTemplate":{"title":"Trailhead", "content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}},
+					"4":{"id":4,"identifiable":false},
+					"5":{"id":5,"identifiable":true, "infoTemplate":{"title":"Water Tank", "content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}},
+					"6":{"id":6,"identifiable":false},
+					"7":{"id":7,"identifiable":true, "infoTemplate":{ "title":"Hospital/Medical Center", "content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}},
+					"8":{"id":8,"identifiable":true,"infoTemplate":{"title":"Rehabilitation Center","content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}},
+					"9":{"id":9,"identifiable":false},
+					"10":{"id":10,"identifiable":true,"infoTemplate":{"title":"Law Enforcement","content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}},
+					"11":{"id":11,"identifiable":true,"infoTemplate":{"title":"Fire Station/EMS Station","content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}},
+					"12":{"id":12,"identifiable":false},
+					"13":{"id":13,"identifiable":true,"infoTemplate":{"title":"Education Facility","content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}},
+					"14":{"id":14,"identifiable":true,"infoTemplate":{"title":"College/University","content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}},
+					"15":{"id":15,"identifiable":true,"infoTemplate":{"title":"School","content":"<table><tr><td>Name:<td>${NAME}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Point Location Type:<td>${PointLocationType}<tr><td>Admin Type:<td>${AdminType}<tr><td>Address Building Name:<td>${ADDRESSBUILDINGNAME}<tr><td>Address:<td>${ADDRESS}<tr><td>City:<td>${CITY}<tr><td>State:<td>${STATE}<tr><td>Zip Code:<td>${ZIPCODE}</td></tr></table>"}}
+				}
+		},		
+		"govunit":{
+			"id":"govunit",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/govunits/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/govunits/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/govunits/MapServer",
+			"displayName":"Governmental Unit Boundaries",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":0.9,
+			"drawOrder":15,
+			"layers":{
+				"0":{"id":0,"identifiable":false},
+				"1":{"id":1,"identifiable":false},
+				"2":{"id":2,"identifiable":false},
+				"3":{"id":3,"identifiable":false},
+				"4":{"id":4,"identifiable":false},
+				"5":{"id":5,"identifiable":false},
+				"6":{"id":6,"identifiable":false},
+				"7":{"id":7,"identifiable":false},
+				"8":{"id":8,"identifiable":false},
+				"9":{"id":9,"identifiable":false},
+				"10":{"id":10,"identifiable":false},
+				"11":{"id":11,"identifiable":false},
+				"12":{"id":12,"identifiable":false},
+				"13":{"id":13,"identifiable":true,"infoTemplate":{"title":"${NAME}","content":"<table><tr><td>Layer:<td>Reserves<tr><td>Feature ID:<td>${SOURCE_FEATUREID}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a></td></tr><tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>Data Security:<td>${Data_Security}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Area (Sq Km):<td>${AREASQKM}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Admin Type:<td>${AdminType}<tr><td>Owner/Managing Agency:<td>${OwnerOrManagingAgency}<tr><td>Shape:<td>${Shape}</td></tr></table>"}},
+				"14":{"id":14,"identifiable":true,"infoTemplate":{"title":"${NAME}","content":"<table><tr><td>Layer:<td>Native American Areas<tr><td>Feature ID:<td>${SOURCE_FEATUREID}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Area (Sq Km):<td>${AREASQKM}<tr><td>FIPS Code:<td>${NATIVEAMERICANAREA_FIPSCODE}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Admin Type:<td>${AdminType}<tr><td>Shape:<td>${Shape}</td></tr></table>"}},
+				"15":{"id":15,"identifiable":true,"infoTemplate":{"title":"${COUNTY_NAME}","content":"<table><tr><td>Layer:<td>County or Equivalent<tr><td>State:<td>${STATE_NAME}<tr><td>FCode:<td>${FCode}<tr><td>Area (Sq Km):<td>${AREASQKM}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Population (2000):<td>${POPULATION2000}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>County FIPS Code:<td>${COUNTY_FIPSCODE}<tr><td>State FIPS Code:<td>${STATE_FIPSCODE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Shape:<td>${Shape}</td></tr></table>"}},
+				"16":{"id":16,"identifiable":true,"infoTemplate":{"title":"${PLACE_NAME}","content":"<table><tr><td>Layer:<td>Incorporated Places<tr><td>State:<td>${STATE_NAME}<tr><td>FCode:<td>${FCode}<tr><td>Area (Sq Km):<td>${AREASQKM}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>FIPS Code:<td>${PLACE_FIPSCODE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Shape:<td>${Shape}</td></tr></table>"}},
+				"17":{"id":17,"identifiable":true,"infoTemplate":{"title":"${PLACE_NAME}","content":"<table><tr><td>Layer:<td>Unincorporated Places<tr><td>State:<td>${STATE_NAME}<tr><td>FCode:<td>${FCode}<tr><td>Area (Sq Km):<td>${AREASQKM}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Population (2000):<td>${POPULATION2000}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>FIPS Code:<td>${PLACE_FIPSCODE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Shape:<td>${Shape}</td></tr></table>"}},
+				"18":{"id":18,"identifiable":true,"infoTemplate":{"title":"${MINORCIVILDIVISION_NAME}","content":"<table><tr><td>Layer:<td>Minor Civil Divisions<tr><td>State:<td>${STATE_NAME}<tr><td>FCode:<td>${FCode}<tr><td>Area (Sq Km):<td>${AREASQKM}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>FIPS Code:<td>${MINORCIVILDIVISION_FIPSCODE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Shape:<td>${Shape}</td></tr></table>"}},
+				"19":{"id":19,"identifiable":true,"infoTemplate":{"title":"${NAME}","content":"<table><tr><td>Layer:<td>Zip Codes<tr><td>State:<td>${STATE_NAME}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Admin Type:<td>${ADMINTYPE}<tr><td>Area (Sq Km):<td>${AREASQKM}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Designation:<td>${DESIGNATION}<tr><td>Owner/Managing Agency:<td>${OWNERORMANAGINGAGENCY}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>State FIPS Code:<td>${STATE_FIPSCODE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Shape:<td>${Shape}</td></tr></table>"}},
+				"20":{"id":20,"identifiable":true,"infoTemplate":{"title":"${NAME}","content":"<table><tr><td>Layer:<td>School Districts<tr><td>State:<td>${STATE_NAME}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Admin Type:<td>${ADMINTYPE}<tr><td>Area (Sq Km):<td>${AREASQKM}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Designation:<td>${DESIGNATION}<tr><td>Owner/Managing Agency:<td>${OWNERORMANAGINGAGENCY}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>State FIPS Code:<td>${STATE_FIPSCODE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Shape:<td>${Shape}</td></tr></table>"}},
+				"21":{"id":21,"identifiable":true,"infoTemplate":{"title":"${STATE_NAME}","content":"<table><tr><td>Layer:<td>State or Territory (Low resolution)<tr><td>State FIPS Code:<td>${STATE_FIPSCODE}</td></tr></table>"}},
+				"22":{"id":22,"identifiable":true,"infoTemplate":{"title":"${STATE_NAME}","content":"<table><tr><td>Layer:<td>State or Territory (High resolution)<tr><td>FCode:<td>${FCode}<tr><td>Area (Sq Km):<td>${AREASQKM}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Population (2000):<td>${POPULATION2000}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>State FIPS Code:<td>${STATE_FIPSCODE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Shape:<td>${Shape}</td></tr></table>"}},
+				"23":{"id":23,"identifiable":true,"infoTemplate":{"title":"${NAME}","content":"<table><tr><td>Layer:<td>111th Congressional Districts<tr><td>State:<td>${STATE_NAME}<tr><td>FType:<td>${FType}<tr><td>FCode:<td>${FCode}<tr><td>Admin Type:<td>${ADMINTYPE}<tr><td>Area (Sq Km):<td>${AREASQKM}<tr><td>Load Date:<td>${LOADDATE}<tr><td>Designation:<td>${DESIGNATION}<tr><td>Owner/Managing Agency:<td>${OWNERORMANAGINGAGENCY}<tr><td>Source Data:<td>${SOURCE_DATADESC}<tr><td>Source Originator:<td>${SOURCE_ORIGINATOR}<tr><td>State FIPS Code:<td>${STATE_FIPSCODE}<tr><td>GNIS ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${GNIS_ID}!=null){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${GNIS_ID}\");}'; return='false'>${GNIS_ID}</a><tr><td>Shape:<td>${Shape}</td></tr></table>"}}
+			}
+		},	
+		"map_indices":{
+			"id":"map_indices",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/map_indices/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/map_indices/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/map_indices/MapServer",
+			"displayName":"Map Indices",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":0.75,
+			"drawOrder":15,
+			"layers":{
+				"0":{"id":0,"identifiable":false},
+				"1":{"id":1,"identifiable":false},
+				"2":{"id":2,"identifiable":false},
+				"3":{"id":3,"identifiable":false},
+				"4":{"id":4,"identifiable":false},
+				"5":{"id":5,"identifiable":true,"infoTemplate":{"title":"${QUADNAME}","content":"<table><tr><td>Layer:<td>1:100K Index<tr><td>ID:<td>${ID}<tr><td>Centlat:<td>${CENTLAT}<tr><td>Centlong:<td>${CENTLONG}<tr><td>MRC Code:<td>${MRC_CODE}</td></tr></table>"}},
+				"6":{"id":6,"identifiable":true,"infoTemplate":{"title":"${QUADNAME}","content":"<table><tr><td>Layer:<td>1:63K Index (Alaska)<tr><td>ID:<td>${ID}<tr><td>Centlat:<td>${CENTLAT}<tr><td>Centlong:<td>${CENTLONG}<tr><td>MRC Code:<td>${MRC_CODE}</td></tr></table>"}},
+				"7":{"id":7,"identifiable":true,"infoTemplate":{"title":"${CELL_NAME}","content":"<table><tr><td>Layer:<td>1:24K Index<tr><td>Primary State:<td>${PRIMARY_STATE}<tr><td>Cell ID:<td>${CELL_ID}<tr><td>Cell Type:<td>${Cell_Type}<tr><td>All Water:<td>${Cell_AllWater}<tr><td>Cell Description:<td>${CELL_DESCRIPTION}<tr><td>Cell Diacritic:<td>${CELL_DIACRITIC}<tr><td>Cell Mapcode:<td>${CELL_MAPCODE}</td></tr></table>"}}
+			}	
+		},
+		"wmsGeonames":{
+			"id":"wmsGeonames",
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/geonames/MapServer",
+			"soapEndpoint":"http://services.nationalmap.gov/ArcGIS/services/geonames/MapServer",
+			"metadataUrl":"http://services.nationalmap.gov/ArcGIS/rest/services/geonames/MapServer",
+			"displayName":"Geographic Names (GNIS)",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"opacity":1,
+			"drawOrder":16,
+			"layers":{
+				"0":{"id":0,"identifiable":true,"infoTemplate":{"title":"${gaz_name}","content":"<table><tr><td>Layer:<td>Structure<tr><td>Feature ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${feature_id} != \"Null\" || ${feature_id} != \"\"){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${feature_id}\");}'; return='false'>${feature_id}</a><tr><td>Feature Class:<td>${gaz_featureclass}<tr><td>State:<td>${state_alpha}<tr><td>County:<td>${county_name}</td></tr></table>"}},
+				"1":{"id":1,"identifiable":true,"infoTemplate":{"title":"${gaz_name}","content":"<table><tr><td>Layer:<td>Transportation<tr><td>Feature ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${feature_id} != \"Null\" || ${feature_id} != \"\"){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${feature_id}\");}'; return='false'>${feature_id}</a><tr><td>Feature Class:<td>${gaz_featureclass}<tr><td>State:<td>${state_alpha}<tr><td>County:<td>${county_name}</td></tr></table>"}},
+				"2":{"id":2,"identifiable":true,"infoTemplate":{"title":"${gaz_name}","content":"<table><tr><td>Layer:<td>Administrative<tr><td>Feature ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${feature_id} != \"Null\" || ${feature_id} != \"\"){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${feature_id}\");}'; return='false'>${feature_id}</a><tr><td>Feature Class:<td>${gaz_featureclass}<tr><td>State:<td>${state_alpha}<tr><td>County:<td>${county_name}</td></tr></table>"}},
+				"3":{"id":3,"identifiable":true,"infoTemplate":{"title":"${gaz_name}","content":"<table><tr><td>Layer:<td>Historical<tr><td>Feature ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${feature_id} != \"Null\" || ${feature_id} != \"\"){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${feature_id}\");}'; return='false'>${feature_id}</a><tr><td>Layer:<td>Historical<tr><td>Feature Class:<td>${gaz_featureclass}<tr><td>State:<td>${state_alpha}<tr><td>County:<td>${county_name}</td></tr></table>"}},
+				"4":{"id":4,"identifiable":true,"infoTemplate":{"title":"${gaz_name}","content":"<table><tr><td>Layer:<td>Community<tr><td>Feature ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${feature_id} != \"Null\" || ${feature_id} != \"\"){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${feature_id}\");}'; return='false'>${feature_id}</a><tr><td>Feature Class:<td>${gaz_featureclass}<tr><td>State:<td>${state_alpha}<tr><td>County:<td>${county_name}</td></tr></table>"}},
+				"5":{"id":5,"identifiable":true,"infoTemplate":{"title":"${gaz_name}","content":"<table><tr><td>Layer:<td>Cultural<tr><td>Feature ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${feature_id} != \"Null\" || ${feature_id} != \"\"){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${feature_id}\");}'; return='false'>${feature_id}</a><tr><td>Feature Class:<td>${gaz_featureclass}<tr><td>State:<td>${state_alpha}<tr><td>County:<td>${county_name}</td></tr></table>"}},
+				"6":{"id":6,"identifiable":true,"infoTemplate":{"title":"${gaz_name}","content":"<table><tr><td>Layer:<td>Landform<tr><td>Feature ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${feature_id} != \"Null\" || ${feature_id} != \"\"){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${feature_id}\");}'; return='false'>${feature_id}</a><tr><td>Feature Class:<td>${gaz_featureclass}<tr><td>State:<td>${state_alpha}<tr><td>County:<td>${county_name}</td></tr></table>"}},
+				"7":{"id":7,"identifiable":true,"infoTemplate":{"title":"${gaz_name}","content":"<table><tr><td>Layer:<td>Hydro Point<tr><td>Feature ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${feature_id} != \"Null\" || ${feature_id} != \"\"){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${feature_id}\");}'; return='false'>${feature_id}</a><tr><td>Feature Class:<td>${gaz_featureclass}<tr><td>State:<td>${state_alpha}<tr><td>County:<td>${county_name}</td></tr></table>"}},
+				"8":{"id":8,"identifiable":true,"infoTemplate":{"title":"${gaz_name}","content":"<table><tr><td>Layer:<td>Hydro Line<tr><td>Feature ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${feature_id} != \"Null\" || ${feature_id} != \"\"){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:${feature_id}\");}'; return='false'>${feature_id}</a><tr><td>Feature Class:<td>${gaz_featureclass}<tr><td>State:<td>${state_alpha}<tr><td>County:<td>${county_name}</td></tr></table>"}},
+				"9":{"id":9,"identifiable":true,"infoTemplate":{"title":"${gaz_name}","content":"<table><tr><td>Layer:<td>Antarctica<tr><td>Feature ID:<td><a href='javascript:void(0)'; onclick='javascript:if(${feature_id} != \"Null\" || ${feature_id} != \"\"){window.open(\"http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:5:::NO::P5_ANTAR_ID:${feature_id}\");}'; return='false'>${feature_id}</a><tr><td>Feature Class:<td>${gaz_featureclass}</td></tr></table>"}}
+			}
+		},
+		"usHazardsInfo":{
+			"id":"usHazardsInfo",
+			"url":"http://rmgsc.cr.usgs.gov/ArcGIS/rest/services/nhss_usdata/MapServer",
+			"soapEndpoint":"http://rmgsc.cr.usgs.gov/ArcGIS/services/nhss_usdata/MapServer",
+			"metadataUrl":"http://rmgsc.cr.usgs.gov/ArcGIS/rest/services/nhss_usdata/MapServer",
+			"displayName":"USGS Hazards Info",
+			"layersDefaultIdentifiable":true,
+			"refreshIntervalSeconds":900,
+			"type":"dynamic",
+			"drawOrder":17,
+			"layers":{
+				"0":{"id":0,"identifiable":true,"infoTemplate":{"title":"${STANAME}","content":"<table><tr><td>Layer:<td>Stream Flow Stations<tr><td>Station Name:<td><a href='${URL}' target='_blank'>${STANAME}</a><tr><td>Stage:<td>${STAGE}<tr><td>Class:<td>${CLASS}</td></tr><tr><td colspan='2'><a href='${URL}' target='_blank'><img src='http://waterwatch.usgs.gov/wwapps/zchart.php?vt=uv&site_no=${STAID}' width='473px' height='315px'/></a></td></tr></table>"}},
+				"1":{"id":1,"identifiable":true,"infoTemplate":{"title":"${NAME}","content":"<table><tr><td>Layer:<td>Remote Automated Weather Stations (RAWS)<tr><td>Station Name:<td><a href='${HOTLINK}' target='_blank'>${NAME}</a><tr><td>Agency:<td>${AGENCY}<tr><td>Status:<td>${STATUS}</td></tr></table>"}},
+				"2":{"id":2,"identifiable":true,"infoTemplate":{"title":"${NAME1}","content":"<table><tr><td>Layer:<td>Federal Lands<tr><td>Name:<td><a href='${URL}' target='_blank'>${NAME1}</a><tr><td>Feature:<td>${FEATURE1}</td></tr></table>"}}
+			}
+		},			
+		"usgsUSHazards":{
+			"id":"usgsUSHazards",
+			"url":"http://rmgsc.cr.usgs.gov/ArcGIS/rest/services/nhss_haz/MapServer",
+			"soapEndpoint":"http://rmgsc.cr.usgs.gov/ArcGIS/services/nhss_haz/MapServer",
+			"metadataUrl":"http://rmgsc.cr.usgs.gov/ArcGIS/rest/services/nhss_haz/MapServer",
+			"displayName":"USGS US Hazards",
+			"layersDefaultIdentifiable":true,
+			"type":"dynamic",
+			"drawOrder":18,
+			"layers":{
+				"0":{"id":0,"identifiable":true,"infoTemplate":{"title":"${STANAME}","content":"<table><tr><td>Layer:<td>Floods<tr><td>Class:<td>${CLASS}<tr><td>Stage:<td>${STAGE}<tr><td>Time:<td>${TIME}</td></tr></table>"}},
+				"1":{"id":1,"identifiable":true,"infoTemplate":{"title":"${NAME}","content":"<table><tr><td>Layer:<td>U.S. Volcanoes<tr><td>Name:<td><a href='${URL}' target='_blank'>${NAME}</a></td></tr></table>"}},
+				"2":{"id":2,"identifiable":true,"infoTemplate":{"title":"${DESCRIPTION}","content":"<table><tr><td>Layer:<td>Other Volcanoes<tr><td>Country:<td>${COUNTRY}<tr><td>Description:<td><a href='${URL}' target='_blank'>${DESCRIPTION}</a></td></tr></table>"}},
+				"3":{"id":3,"identifiable":true,"infoTemplate":{"title":"${TITLE}","content":"<table><tr><td>Layer:<td>Earthquakes<tr><td>Location:<td><a href='${URL}' target='_blank'>${TITLE}</a><tr><td>Magnitude:<td>${MAGNITUDE}<tr><td>Time:<td>${DATETIME}<tr><td>Warning:<td>${WARNING}</td></tr></table>"}},
+				"4":{"id":4,"identifiable":true,"infoTemplate":{"title":"${NAME}","content":"<table><tr><td>Layer:<td>Hurricanes<tr><td>Name:<td><a href='${URL}' target='_blank'>${NAME}</a><tr><td>Movement:<td>${MOVEMENT}</td></tr></table>"}},
+				"5":{"id":5,"identifiable":true,"infoTemplate":{"title":"${FIRE_NAME}","content":"<table><tr><td>Layer:<td>Wildfires<tr><td>Name:<td><a href='${HOTLINK}' target='_blank'>${FIRE_NAME}</a><tr><td>Acres:<td>${ACRES}<tr><td>Report Time:<td>${REPORT_DATE}</td></tr></table>"}},
+				"6":{"id":6,"identifiable":true,"infoTemplate":{"title":"${FIRE_NAME}","content":"<table><tr><td>Layer:<td>Wildfire Perimeters<tr><td>Agency:<td>${AGENCY}<tr><td>Acres:<td>${ACRES}<tr><td>Report Time:<td>${DATE_}</td></tr></table>"}}
+			}
+		}
+	},
+	"serviceGroups":{
+		"baseServices1":["TNM_Small_Scale_Shaded_Relief","TNM_Medium_Scale_Shaded_Relief","TNM_Large_Scale_Shaded_Relief","TNM_Vector_Fills_Small","TNM_Vector_Fills_Large","TNM_Vector_Small","TNM_Vector_Large"],
+		"baseServices2":["TNM_Small_Scale_Imagery","TNM_Large_Scale_Imagery","TNM_Vector_Fills_Small_light","TNM_Vector_Fills_Large_light","TNM_Vector_Small","TNM_Vector_Large"],
+		"baseServices3":["TNM_Blank_US"],
+		"TNMBaseOverlays":["US_Topo","wmsGeonames","structures","transport","govunit","map_indices","nhdgeo","LandCover","TNM_Contours_Small_Beta","TNM_Large_Scale_Imagery_Overlay","TNM_DRG","vectorSelectablePolygons"],
+		"featuredExampleMashups":["usgsEcosystems","usgsPADUSOwner","usgsPADUSStatus","usgsGAPLandCover","usgsUSHazards","usHazardsInfo","nhss_weat","nexrad","FWS_Wetlands","blmPLSS"],
+		"initialOn":["vectorSelectablePolygons"]
+	},	
+	"locators":{
+		"composite":{
+			"url":"http://services.nationalmap.gov/ArcGIS/rest/services/Tasks/Search/GeocodeServer",
+			"spatialReference":{"wkid":4326}
+		}
+	},
+	"bandwidthTestEndpoints": {
+			"wmTest":{
+				"displayName":"TNM Base Map Test",
+				"url":"http://basemap.nationalmap.gov/ArcGIS/rest/services/TNM_Vector_Small/MapServer/tile/0/0/0",
+				"byteSize":24963
+			}
+	},
+	"extents":{
+		"CONUS":{"xmin":-14300000, "ymin":2500000, "xmax":-6900000, "ymax":6400000, "spatialReference":{"wkid":102113}}
+	},
+	"tasks": {
+		"near":{
+			"id":"near",
+			"displayName":"Near",
+			"url":"https://cigtdc.esri.com/rest/services/GPTools/Near/GPServer/Near?token=XMO83jUq56i3F5Pi6Ov3aTUanQhU7f473kWqNeYubEWf78huE1ZaKUaTqFxVGoR4VFQkD4ojbR2yGiURn-oU9g.."
+		},
+		"elevation":{
+			"id":"elevation",
+			"displayName":"Elevation",
+			"url":"https://cigtdc.esri.com/rest/services/GPTools/Elevation/GPServer/GetElevation?token=XMO83jUq56i3F5Pi6Ov3aTUanQhU7f473kWqNeYubEWf78huE1ZaKUaTqFxVGoR4VFQkD4ojbR2yGiURn-oU9g.."
+		},
+		"viewshed":{
+			"id":"viewshed",
+			"displayName":"Viewshed",
+			"url":"https://cigtdc.esri.com/rest/services/GPTools/Viewshed/GPServer/Global%20Viewshed?token=XMO83jUq56i3F5Pi6Ov3aTUanQhU7f473kWqNeYubEWf78huE1ZaKUaTqFxVGoR4VFQkD4ojbR2yGiURn-oU9g.."
+		},
+		"clipandzip":{
+			"id":"clipandzip",
+			"displayName":"HSIP Clip and Zip",
+			"url":"https://cigtdc.esri.com/rest/services/GPTools/HSIPDataReference/GPServer/Clip%20and%20Zip%20-%20HSIP?token=XMO83jUq56i3F5Pi6Ov3aTUanQhU7f473kWqNeYubEWf78huE1ZaKUaTqFxVGoR4VFQkD4ojbR2yGiURn-oU9g.."
+		},
+		"mapBookPoint" : {
+			"id" : "mapBookPoint",
+			"displayName" : "Create Map Book (Points)",
+			"url" : "https://cigtdc.esri.com/rest/services/GPTools/GenerateMapBooks_18/GPServer/Create%20a%20Map%20Book%20%28Points%29?token=XMO83jUq56i3F5Pi6Ov3aTUanQhU7f473kWqNeYubEWf78huE1ZaKUaTqFxVGoR4VFQkD4ojbR2yGiURn-oU9g.."
+		},
+		"mapBookLine" : {
+			"id" : "mapBookLine",
+			"displayName" : "Create Map Book (Line)",
+			"url" : "https://cigtdc.esri.com/rest/services/GPTools/GenerateMapBooks_18/GPServer/Create%20a%20Map%20Book%20%28Polyline%29?token=XMO83jUq56i3F5Pi6Ov3aTUanQhU7f473kWqNeYubEWf78huE1ZaKUaTqFxVGoR4VFQkD4ojbR2yGiURn-oU9g.."
+		},
+		"kmlToShp" : {
+			"id" : "kmlToShp",
+			"displayName" : "Convert KML to Shapefile",
+			"url" : "https://cigtdc.esri.com/rest/services/GPTools/KML_to_Shapefile/GPServer/Convert%20KML%20to%20Shapefile?token=XMO83jUq56i3F5Pi6Ov3aTUanQhU7f473kWqNeYubEWf78huE1ZaKUaTqFxVGoR4VFQkD4ojbR2yGiURn-oU9g.."
+		},
+		"elevationProfile" : {
+			"id" : "elevationProfile",
+			"displayName" : "Generate Elevation Profile",
+			"url" : "https://cigtdc.esri.com/rest/services/GPTools/Elevation_Profile/GPServer/Generate%20Elevation%20Profile?token=XMO83jUq56i3F5Pi6Ov3aTUanQhU7f473kWqNeYubEWf78huE1ZaKUaTqFxVGoR4VFQkD4ojbR2yGiURn-oU9g.."
+		},
+		"nearestHSIP" :{
+			"id" : "nearestHSIP",
+			"displayName" : "Find Nearest HSIP Data",
+			"url" : "https://cigtdc.esri.com/rest/services/GPTools/NearestHSIPFeature/GPServer/Find%20Nearest%20HSIP%20Data?token=XMO83jUq56i3F5Pi6Ov3aTUanQhU7f473kWqNeYubEWf78huE1ZaKUaTqFxVGoR4VFQkD4ojbR2yGiURn-oU9g.."
+		}
+	},
+	"defaultToolGroup": "Standard",
+	"tools": [
+		{
+			"group":"Standard",
+			"tools":[
+				{
+					"type":"jsapix.tools.MapNavigation",
+					"displayName":"Map Navigation",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":10
+					},
+					"configuration": {
+						"id":"mapnavigation"
+					}
+				},
+				{
+					"type":"jsapix.tools.Identify",
+					"displayName":"Identify",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":13
+					},
+					"configuration": {
+						"id":"identify"
+					}
+				},
+				{
+					"type":"jsapix.tools.FindCoordinates",
+					"displayName":"Find Coordinates",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":15
+					},
+					"configuration": {
+						"id":"findcoordinates",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer",
+						"infoTemplate":{
+							"title":"Coordinates",
+							"content":"<p>DD: ${DD}<br/>DMS: ${DMS}<br/>USNG: ${USNG}<br/>MGRS: ${MGRS}</p>"
+						},
+						"markerSymbol": {
+							"style":"esriSMSCircle",
+							"size":12,
+							"outline": {
+								"style":"esriSLSSolid",
+								"color":[255,165,0,255],
+								"width":1
+							},
+							"color":[0,0,255,128]
+						}
+					}
+				},
+				{
+					"type":"jsapix.tools.ReverseGeocode",
+					"displayName":"Reverse Geocode",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":5
+					},
+					"configuration": {
+						"id":"reversegeocode",
+						"distance": 150,
+						"locatorUrl":"http://tasks.arcgisonline.com/ArcGIS/rest/services/Locators/TA_Streets_US/GeocodeServer",
+						"markerSymbol": {
+							"style":"esriSMSCircle",
+							"size":10,
+							"outline": {
+								"style":"esriSLSSolid",
+								"color":[255,255,255,255],
+								"width":1
+							},
+							"color":[255,0,0,128]
+						}
+					}
+				},
+				{
+					"type":"jsapix.tools.ClearGraphics",
+					"displayName":"Clear Graphics",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":27
+					},
+					"configuration": {
+						"id":"clearGraphics"
+					}
+				},
+				{
+					"type":"jsapix.tools.ZoomToGlobe",
+					"displayName":"Reset Zoom (Initial Extent)",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":2
+					},
+					"configuration": {
+						"id":"zoomToGlobe"
+					}
+				},
+				{
+					"type":"jsapix.tools.ZoomToLast",
+					"displayName":"Zoom to Last Extent",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":1
+					},
+					"configuration": {
+						"id":"zoomToLast"
+					}
+				},				
+				{
+					"type":"usgs.tools.BoundingBoxZoom",
+					"displayName":"Zoom In Box",
+					"image":{
+						"path":"./images/Zoom_In_16.png",
+						"offset":0
+					},
+					"configuration": {
+						"id":"boundingBoxZoom"
+					}
+				},
+				{
+					"type":"usgs.tools.SpotElevation",
+					"displayName":"Spot Elevation",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":3
+					},
+					"configuration": {
+						"id":"spotElevation",
+						"elevationGPEndPoint": "http://gisdata.usgs.gov/xmlwebservices2/elevation_service.asmx/getElevation"
+					}
+				}
+
+			]
+		},
+		{
+			"group":"Advanced",
+			"tools":[
+			{
+					"type":"usgs.tools.Extract",
+					"displayName":"Download Data",
+					"image":{
+						"offset":0,
+						"path":"./images/extract_16.png"
+						},
+					"configuration": {
+						"id":"Extract"
+					}
+				},                		
+				{
+					"type":"jsapix.tools.MeasureDistance",
+					"displayName":"Measure Distance",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":12
+					},
+
+					"configuration": {
+						"id":"MeasureDistance",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer",
+						"simpleLineSymbol": {
+								"style":"esriSLSSolid",
+								"color":[255,165,0,255],
+								"width":2.5
+						}
+					}
+				},
+				{
+					"type":"jsapix.tools.MeasureArea",
+					"displayName":"Measure Area",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":11
+					},
+
+					"configuration": {
+						"id":"MeasureArea",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer",
+						"simpleFillSymbol": {
+								"style":"esriSFSSolid",
+								"outline": {
+									"style":"esriSLSSolid",
+									"color":[255,255,255,255],
+									"width":1
+								},
+								"color":[255,0,0,125]
+						}
+					}
+				},
+				{
+					"type":"jsapix.tools.AddData",
+					"displayName":"Add Data",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":23
+					},
+					"configuration": {
+						"id":"addData",
+						"wmsReflectorUrl":"http://viewer.nationalmap.gov/reflector/wms/null/MapServer/",
+						"wmtsReflectorUrl":"http://viewer.nationalmap.gov/reflector/wmts/null/MapServer/",
+						"imsReflectorUrl":"http://viewer.nationalmap.gov/reflector/ims/",
+						"disableClassification":true,
+						"securityString":""
+					}
+				},
+				{
+					"type":"jsapix.tools.SearchCsw",
+					"displayName":"Search CSW",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":30
+					},
+					"configuration": {
+						"id":"searchCsw",
+						"cswList":[
+							{
+								"id":"geodatagov",
+								"displayName":"geo.data.gov",
+								"url":"http://geo.data.gov/geoportal/csw/discovery"
+								
+							
+							},
+							{
+								"id":"geointGeoportal",
+								"displayName":"GeoInt Geoportal",
+								"url":"http://egeoint.nrlssc.navy.mil/geoportal/csw202/discovery"
+							}
+						]					
+					}
+				},
+				{
+					"type":"jsapix.tools.QueryBuilder",
+					"displayName":"Query Builder",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":9
+					},
+					"configuration": {
+						"id":"queryBuilder",
+						"filterManagerId":"filterManager"
+					}
+				},
+				{
+					"type":"jsapix.tools.FilterManager",
+					"displayName":"Filter Manager",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":16
+					},
+					"configuration": {
+						"id":"filterManager"
+					}
+				},
+				{
+					"type":"jsapix.tools.SelectionManager",
+					"displayName":"Selection Manager",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":4
+					},
+					"configuration": {
+						"id":"selectionManager2"
+					}
+				},
+				{
+					"type":"jsapix.tools.PointBuffer",
+					"displayName":"Select with Buffered Point",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":0
+					},
+
+					"configuration": {
+						"id":"pointBuffer",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+					}
+				},
+				{
+					"type":"jsapix.tools.SelectBuffer",
+					"displayName":"Buffer by Selection",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":28
+					},
+					"configuration": {
+						"id":"selectBuffer",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+					}
+				},
+				{
+					"type":"jsapix.tools.RangeRing",
+					"displayName":"Range Ring",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":6
+					},
+					"configuration": {
+						"id":"rangeRing",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+					}
+				}
+			]
+		},
+		{
+			"group":"Annotation",
+			"tools":[
+				{
+					"type":"jsapix.tools.DrawPoint",
+					"displayName":"Draw Point",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":21
+					},
+					"configuration": {
+						"id":"drawPoint",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+					}
+				},
+				{
+					"type":"jsapix.tools.DrawLine",
+					"displayName":"Draw Line",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":22
+					},
+					"configuration": {
+						"id":"drawLine",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+					}
+				},
+				{
+					"type":"jsapix.tools.DrawPolygon",
+					"displayName":"Draw Polygon",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":20
+					},
+					"configuration": {
+						"id":"drawPolygon",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+					}
+				},
+				{
+					"type":"jsapix.tools.DrawText",
+					"displayName":"Draw Text",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":18
+					},
+					"configuration": {
+						"id":"drawText",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+					}
+				},
+	{
+					"type":"jsapix.tools.DrawRectangle",
+					"displayName":"Draw Rectangle",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":19
+					},
+					"configuration": {
+						"id":"drawRectangle",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+					}
+				},
+				{
+					"type":"jsapix.tools.DrawEllipse",
+					"displayName":"Draw Ellipse",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":24
+					},
+					"configuration": {
+						"id":"drawEllipse",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+					}
+				},
+				{
+					"type":"jsapix.tools.DrawBoundEllipse",
+					"displayName":"Draw Bound Ellipse",
+					"image":{
+						"path":"../../jsapix/tools/images/toolSprite.png",
+						"offset":25
+					},
+					"configuration": {
+						"id":"drawBoundEllipse",
+						"geometryServiceUrl":"http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+					}
+				},
+				{
+					"type":"jsapix.tools.ClearAnnotations",
+					"displayName":"Delete Annotations",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":26
+					},
+					"configuration": {
+						"id":"deleteAnnotations"
+					}
+				},
+				{
+					"type":"jsapix.tools.ExportAnnotations",
+					"displayName":"Export Annotations",
+					"image":{
+						"path":"./images/toolSprite.png",
+						"offset":17
+					},
+
+					"configuration": {
+						"id":"exportAnnotations"
+					}
+				}
+			]
+		}
+	],
+	"mapConfig":{
+		"baseServiceId":"Base_map_schema",
+		"initialBackgroundMapId":"base1",
+		"initialToolId":"mapnavigation",
+		"initialVisibleServicesGroupId":"initialOn",
+		"dynamicUserServicesGroupId":"",
+		"initialExtentId":"CONUS",
+		"fullExtentId":"CONUS",
+		"nav":false,
+		"statusBar":true,
+		"scalebarUnit": "english",
+		"wrapAround180":false,
+		"geometryServiceUrl": "http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer",
+		"defaultServiceClassification":"UNCLASSIFIED",
+		
+			"backgroundMaps":[
+			{
+				"id":"base1",
+				"displayName":"Base Map",
+				"serviceGroupId":"baseServices1",
+				"serviceControlType":"checkbox",
+				"serviceControls":[
+					{"label":"Show Labels",
+					"serviceIds":["TNM_Vector_Fills_Small","TNM_Vector_Fills_Large","TNM_Vector_Small","TNM_Vector_Large"]}
+				]
+			},		
+			{
+				"id":"base2",
+				"displayName":"Imagery",
+				"serviceGroupId":"baseServices2",
+				"serviceControlType":"checkbox",
+				"serviceControls":[{
+					"label":"Show Labels",
+					"serviceIds":["TNM_Vector_Fills_Small_light","TNM_Vector_Fills_Large_light","TNM_Vector_Small","TNM_Vector_Large"]
+				}]
+			},
+			{
+				"id":"base3",
+				"displayName":"Blank",
+				"serviceGroupId":"baseServices3",
+				"serviceControlType":"checkbox",
+				"serviceControls":[{
+					"label":"Outlines",
+					"serviceIds":["TNM_Blank_US"]
+				}]
+			}
+
+		]
+	},
+	"layoutConfig":{
+		"displaySecurityBanners":false,
+		"displayTocSecurityMarkings":false,
+		"linkPaneType":"jsapix.layout.LinkPane",
+		"tocMenuType":"jsapix.TocMenu",
+		"hideToolbar":false,
+		"overlayGroups":[
+			{
+				"displayName":"Base Data Layers",
+				"serviceGroupId":"TNMBaseOverlays",
+				"selected":true
+			},
+			{
+				"displayName":"Other Featured Data",
+				"serviceGroupId":"featuredExampleMashups",
+				"selected":false
+			}
+		],
+		"initialActiveTaskId":null,
+		"availableTasks":[
+			"near",
+			"elevation",
+			"viewshed",
+			"clipandzip",
+			"mapBookPoint",
+			"mapBookLine",
+			"kmlToShp",
+			"elevationProfile",
+			"nearestHSIP"
+		]
+	},
+	"optionsConfig":{
+		"options": {
+			"coordDisplay": "DMS"
+		}
+	},
+	
+	"infoWindowConfig":{
+		"type": "jsapix.InfoWindow",
+		"linksClass" : "usgs.actions.ActionLinks",
+		"menuClass":"usgs.actions.ActionLinksMenu",
+		"maxHeight": 500,
+		"maxWidth": 500,
+		"elevationGPEndPoint": "http://gisdata.usgs.gov/xmlwebservices2/elevation_service.asmx/getElevation",
+		"geometryServiceUrl": "http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer",
+		"editAnnotationGeoServiceUrl" : "http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer",
+		"searchConfig" : {
+			"nearTaskUrl" : ""
+		}		
+	},
+	"embeddedInfoWindowConfig" : {
+		"type": "jsapix.EmbeddedInfoWindow",
+		"linksClass" : "usgs.actions.ActionLinks",
+		"maxHeight" : 150,
+		"maxWidth" : 250
+	},
+	"searchConfig":{
+		"locator":"composite",
+		"wmsReflectorUrl":"http://viewer.nationalmap.gov/reflector/wms/null/MapServer/",
+		"nearTaskUrl":"",
+		"searchZoomLevel":13
+	},
+	"routerConfig":{
+		"locator":"locator1",
+		"findNAService":"https://cigtdc.esri.com/rest/services/GPTools/FindNA/GPServer/Find%20Network%20Analyst%20Service?token=J3vduKmn-YVsiZX3FSVZ71u_ae5WF0ga3CC3jRJfs_SzHRwlM04j7Gt65JI7upCHDE0RrWisIvCQSUAW9bTHEg.."
+	},
+	"selectionResultsConfig":{
+		"elevationGPEndPoint": "http://gisdata.usgs.gov/xmlwebservices2/elevation_service.asmx/getElevation",
+		"bufferGeometryServiceUrl": "http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+	},
+	"dynamicUserServicesConfig":{
+		"useDynamicUserServices":true,
+		"wmsReflectorUrl":"http://viewer.nationalmap.gov/reflector/wms/null/MapServer",
+		"drawOrder":12,
+		"opacity":0.5,
+		"classification":"UNCLASSIFIED",
+		"caveats":[]
+	},
+	"gmtiConfig":{
+		"enableValidationByDefault":true
+	},
+	"editUtilConfig": {
+		"geometryServiceUrl" : "http://ags.cr.usgs.gov/ArcGIS/rest/services/Geometry/GeometryServer"
+	},
+	"previousSearchDataStore" : {
+		"type" : "db"
+	},
+	"wmsErrorConfig" : {
+		"reflectorErrorUrl" : "https://cigtdc.esri.com/reflector/exceptions"
+	}
+}

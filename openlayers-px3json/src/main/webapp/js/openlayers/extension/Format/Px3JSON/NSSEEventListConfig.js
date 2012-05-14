@@ -21,7 +21,7 @@ OpenLayers.Format.Px3JSON.NSSEEventListConfig = OpenLayers.Class(OpenLayers.Form
       
     /**
      * Property: eventLayerId
-     * {Number} The layer that should be used in the NSSE service.
+     * {Integer} The layer that should be used in the NSSE service.
      */
     eventLayerId: null,
      

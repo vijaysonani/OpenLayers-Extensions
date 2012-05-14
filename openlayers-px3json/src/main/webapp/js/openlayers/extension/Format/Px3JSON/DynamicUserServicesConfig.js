@@ -30,6 +30,13 @@ OpenLayers.Format.Px3JSON.DynamicUserServicesConfig = OpenLayers.Class(OpenLayer
     drawOrder: null,
         
     /**
+     * Property: opacity
+     * {Double} Optional. A number between 0 and 1 used to determine the 
+     * opacity of new dynamic user services.   
+     */ 
+    opacity : null,
+        
+    /**
      * Property: classification
      * {String} The classification of services added through dynamic services.
      */

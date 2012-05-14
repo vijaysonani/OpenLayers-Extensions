@@ -23,10 +23,7 @@ OpenLayers.Format.Px3JSON.Locators = OpenLayers.Class(OpenLayers.Format.Px3JSON,
     
     /**
      * Property: spatialReference
-     * {String} Spatial Reference of the locator.
-     *
-     * TODO- This can probably immediately be made into an OpenLayers spatial reference
-     * but the API calls for it to be a string
+     * {OpenLayers.Format.Px3JSON.SpatialReference} Spatial Reference of the extent.
      */ 
     spatialReference: null,
     
@@ -66,6 +63,10 @@ OpenLayers.Format.Px3JSON.Locators = OpenLayers.Class(OpenLayers.Format.Px3JSON,
         
         if (options.fields && Object.keys['fields'].length) {
             this.fields = new OpenLayers.Format.Px3JSON.Fields(options.fields);
+        }
+        
+        if (options.spatialReference && Object.keys['spatialReference'].length) {
+            this.spatialReference = new OpenLayers.Format.Px3JSON.SpatialReference(options.spatialReference);
         }
     },
     

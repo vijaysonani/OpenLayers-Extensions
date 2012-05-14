@@ -41,6 +41,12 @@ OpenLayers.Format.Px3JSON.Tasks = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
      * {Object} Optional. Hash map of parameter configuration objects with 
      * parameter ids as a key.	These objects set the output symbology 
      * for the task.
+     * 
+     * TODO-- There seems to be quite a deep object found here @ /doc/jsapix-config-schema.jsd
+     * However, there is no API description of this object @ 
+     * https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+     * and the reference Px3JSON set @ /doc/example.json does not contain this.
+     * Therefore there is no supporting OpenLayers-subclassed object provided in this library
      */
     parameters: null,  
     
@@ -51,6 +57,16 @@ OpenLayers.Format.Px3JSON.Tasks = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
      * This will be used if displaySecurityBanners or displayTocSecurityMarkings in the
      */
     classification: null,     
+    
+    /**
+     * Property: caveats
+     * {String[]} Optional.
+     * 
+     * TODO-- This parameter exists in /doc/jsapix-config-schema.jsd but does not exist in
+     * the API @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf 
+     * and there is no example of this in /doc/example.json.
+     */
+    caveats : [],
     
     /**
      * APIMethod: read

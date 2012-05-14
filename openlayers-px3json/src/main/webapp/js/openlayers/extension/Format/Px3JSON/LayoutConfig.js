@@ -40,7 +40,7 @@ OpenLayers.Format.Px3JSON.LayoutConfig = OpenLayers.Class(OpenLayers.Format.Px3J
       
     /**
      * Property: hideToolbar
-     * {Boolean} If true, makes the toolbar hidden initially.
+     * {Boolean} Optional. If true, makes the toolbar hidden initially.
      */
     hideToolbar: null,
   
@@ -60,8 +60,17 @@ OpenLayers.Format.Px3JSON.LayoutConfig = OpenLayers.Class(OpenLayers.Format.Px3J
      * Property: availableTasks
      * {String[]} An array of task ids that will be available in the left pane.
      */
-    availableTasks: null,
-                  
+    availableTasks: [],
+           
+    /**
+     * Property: backgroundMaps
+     * {OpenLayers.Format.Px3JSON.BackgroundMaps[]} Optional.
+     * This property does not exist @ 
+     * https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
+     * but does exist in /doc/example.json so is included here
+     */       
+    backgroundMaps : [],       
+            
     /**
      * Constructor: OpenLayers.Format.Px3JSON.LayoutConfig
      * Construct an OpenLayers.Format.Px3JSON.LayoutConfig object
@@ -78,6 +87,14 @@ OpenLayers.Format.Px3JSON.LayoutConfig = OpenLayers.Class(OpenLayers.Format.Px3J
                 this.overlayGroups.push(new OpenLayers.Format.Px3JSON.OverlayGroups(options.overlayGroups[overlayGroupsIndex]));
             }
         }
+        
+        if (options.backgroundMaps) {
+            this.backgroundMaps = [];
+            for (var backgroundMapsIndex = 0;backgroundMapsIndex < options.backgroundMaps.length;backgroundMapsIndex++) {
+                this.backgroundMaps.push(new OpenLayers.Format.Px3JSON.BackgroundMaps(options.backgroundMaps[backgroundMapsIndex]));
+            }
+        }
+        
     },
     
     /**
