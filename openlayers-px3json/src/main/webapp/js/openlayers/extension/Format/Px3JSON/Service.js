@@ -1,6 +1,10 @@
 OpenLayers.Format.Px3JSON.Service = OpenLayers.Class({
     
     /**
+    * @requires OpenLayers/Format/Px3JSON/LayerConfig.js
+    */
+    
+    /**
     * Class: OpenLayers.Px3JSON.Service
     * The services object can be thought of as a hash map with the key being 
     * the service id and value being a service configuration object.
@@ -118,17 +122,17 @@ OpenLayers.Format.Px3JSON.Service = OpenLayers.Class({
     
     /**
      * Property : layers
-     * {Object} Hash map of Layer Configuration Objects, keys are the layerÕs id.
+     * {OpenLayers.Format.Px3JSON.LayerConfig} Hash map of Layer Configuration Objects, keys are the layerÕs id.
      */
-    layers : null,
+    layers : {},
     
     /**
      * Property: defaultInfotemplate
-     * {Object} Optional. The default info template to apply to layers where none is 
-     * specified via the Layers configuration object. Refer to the Info Template Object 
-     * section for configuration format of this object.
+     * {OpenLayers.Format.Px3JSON.InfoTemplate} Optional. The default info template 
+     * to apply to layers where none is specified via the Layers configuration object. 
+     * Refer to the Info Template Object section for configuration format of this object.
      */
-    defaultInfotemplate : null,
+    defaultInfotemplate : {},
     
     /**
      * Constructor: OpenLayers.Format.Px3JSON.Service
@@ -145,12 +149,17 @@ OpenLayers.Format.Px3JSON.Service = OpenLayers.Class({
         } else if (this.opacity > 1) {
             this.opacity = 1.0;
         }
-        // TODO- Initialize layers and defaultInfotemplate objects
+        for (var layer in this.layers) {
+            this.layers[layer] = new OpenLayers.Format.Px3JSON.LayerConfig(this.layers[layer]);
+        }
+        if (Object.keys(this.layers).length) {
+            this.layers = this.defaultInfotemplate;
+        }
     },
     
     /**
      * APIMethod: read
-     * Read a JSON object into a OpenLayers.Format.Px3JSON.Service object
+     * Read a JSON string into a OpenLayers.Format.Px3JSON.Service object
      *
      * Parameters:
      * obj - {Object} A JSON string
@@ -180,8 +189,8 @@ OpenLayers.Format.Px3JSON.Service = OpenLayers.Class({
             !service.layers || 
             !service.defaultInfotemplate) {
             return false;
-            }
-            return true;
+        }
+        return true;
     },
     
     CLASS_NAME: "OpenLayers.Format.Px3JSON.Service"
