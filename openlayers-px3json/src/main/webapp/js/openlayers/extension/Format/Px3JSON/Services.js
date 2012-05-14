@@ -1,13 +1,11 @@
-OpenLayers.Format.Px3JSON.Services = OpenLayers.Class({
-    
-    /**
-    * @requires OpenLayers/Format/Px3JSON/LayerConfig.js
-    */
+OpenLayers.Format.Px3JSON.Services = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
     
     /**
     * Class: OpenLayers.Px3JSON.Service
     * The services object can be thought of as a hash map with the key being 
     * the service id and value being a service configuration object.
+    * 
+    *   @requires OpenLayers/Format/Px3JSON/LayerConfig.js
     * 
     * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
@@ -144,15 +142,17 @@ OpenLayers.Format.Px3JSON.Services = OpenLayers.Class({
      */
     initialize: function(options) {
         OpenLayers.Util.applyDefaults(this, options);
+        this.options = options;
+        
         if (this.opacity < 0) {
             this.opacity = 0;
         } else if (this.opacity > 1) {
             this.opacity = 1.0;
         }
-        for (var layer in this.layers) {
+        for (var layer in this.options.layers) {
             this.layers[layer] = new OpenLayers.Format.Px3JSON.LayerConfig(this.layers[layer]);
         }
-        if (Object.keys(this.layers).length) {
+        if (!Object.keys(this.layers).length) {
             this.layers = this.defaultInfotemplate;
         }
     },
@@ -169,31 +169,6 @@ OpenLayers.Format.Px3JSON.Services = OpenLayers.Class({
      */
     read : function(json) {
         return new OpenLayers.Format.Px3JSON.Services(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
-    },
-    
-    /**
-     * Method: isValidType
-     * Check if a Service object is a valid representative of the given type.
-     * 
-     * Parameters:
-     * obj - {Object} An initialized object of this type
-     * 
-     * Returns:
-     * {Boolean} The object is valid Service object of the given type.
-     */
-    isValidType : function(obj) {
-        if (!obj.id ||
-            !obj.url ||
-            !obj.displayName ||
-            !obj.type ||
-            !obj.drawOrder ||
-            !obj.downloadUrl ||
-            !obj.opacity ||
-            !obj.layers || 
-            !obj.defaultInfotemplate) {
-            return false;
-        }
-        return true;
     },
     
     CLASS_NAME: "OpenLayers.Format.Px3JSON.Services"

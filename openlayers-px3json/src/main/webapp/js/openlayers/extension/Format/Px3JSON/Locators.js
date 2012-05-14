@@ -1,13 +1,11 @@
-OpenLayers.Format.Px3JSON.Locators = OpenLayers.Class({
+OpenLayers.Format.Px3JSON.Locators = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
         
-    /**
-     * @requires OpenLayers/Format/Px3JSON/Fields.js
-     */
-    
     /**
     * Class: OpenLayers.Format.Px3JSON.Locators
     * The locators object can be thought of as a hash map with the key being the
     * locator id and value a locator configuration object.
+    * 
+    * @requires OpenLayers/Format/Px3JSON/Fields.js
     * 
     * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */

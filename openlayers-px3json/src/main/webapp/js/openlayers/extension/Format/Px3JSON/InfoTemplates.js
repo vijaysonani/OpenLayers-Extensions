@@ -1,6 +1,8 @@
-OpenLayers.Format.Px3JSON.InfoTemplates = OpenLayers.Class({
+OpenLayers.Format.Px3JSON.InfoTemplates = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
    /**
     * Class: OpenLayers.Format.Px3JSON.InfoTemplates
+    * 
+    * @requires OpenLayers/Format/Px3JSON.js
     * 
     * In both properties of the Info Template Object can have attributes 
     * specified in them by using ${<column name>}. An example might be ${STREET_NAME}.
@@ -24,18 +26,6 @@ OpenLayers.Format.Px3JSON.InfoTemplates = OpenLayers.Class({
     content : '${*}',
     
     /**
-     * Constructor: OpenLayers.Format.Px3JSON.LayerConfig
-     * Construct an OpenLayers.Format.Px3JSON.LayerConfig object
-     * 
-     * Parameters:
-     * options - {Object} Optional object whose properties will be set on
-     *     the object.
-     */
-    initialize: function(options) {
-        OpenLayers.Util.applyDefaults(this, options);
-    },
-    
-    /**
      * APIMethod: read
      * Read a JSON string into a OpenLayers.Format.Px3JSON.LayerConfig object
      *
@@ -47,20 +37,6 @@ OpenLayers.Format.Px3JSON.InfoTemplates = OpenLayers.Class({
      */
     read : function(json) {
         return new OpenLayers.Format.Px3JSON.InfoTemplates(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
-    },
-    
-    /**
-     * Method: isValidType
-     * Check if an object is a valid representative of the given type.
-     * 
-     * Parameters:
-     * obj - {Object} An initialized object of this type
-     * 
-     * Returns:
-     * {Boolean} The object is valid object of the given type.
-     */
-    isValidType : function(obj) {
-        return true;
     },
     
     CLASS_NAME : 'OpenLayers.Format.Px3JSON.InfoTemplate'

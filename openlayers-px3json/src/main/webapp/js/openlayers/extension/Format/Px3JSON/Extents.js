@@ -1,7 +1,9 @@
-OpenLayers.Format.Px3JSON.Extents = OpenLayers.Class({
+OpenLayers.Format.Px3JSON.Extents = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
     
     /**
     * Class: OpenLayers.Format.Px3JSON.Extents
+    * 
+    * @requires OpenLayers/Format/Px3JSON.js
     * 
     * The extents object can be thought of as a hash map with the key being the 
     * extent id and value being an extent configuration object.
@@ -38,18 +40,6 @@ OpenLayers.Format.Px3JSON.Extents = OpenLayers.Class({
      * {Object} Spatial reference of the extent.
      */
     spatialReference: null,
-
-    /**
-     * Constructor: OpenLayers.Format.Px3JSON.OpenLayers.Format.Px3JSON.Extents
-     * Construct an OpenLayers.Format.Px3JSON.OpenLayers.Format.Px3JSON.Extents object
-     * 
-     * Parameters:
-     * options - {Object} Optional object whose properties will be set on
-     *     the object.
-     */
-    initialize: function(options) {
-        OpenLayers.Util.applyDefaults(this, options);
-    },
     
     /**
      * APIMethod: read
@@ -63,20 +53,6 @@ OpenLayers.Format.Px3JSON.Extents = OpenLayers.Class({
      */
     read : function(json) {
         return new OpenLayers.Format.Px3JSON.OpenLayers.Format.Px3JSON.Extents(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
-    },
-    
-    /**
-     * Method: isValidType
-     * Check if an object is a valid representative of the given type.
-     * 
-     * Parameters:
-     * obj - {Object} An initialized object of this type
-     * 
-     * Returns:
-     * {Boolean} The object is valid object of the given type.
-     */
-    isValidType : function(obj) {
-        return true;
     },
     
     CLASS_NAME: "OpenLayers.Format.Px3JSON.OpenLayers.Format.Px3JSON.Extents"

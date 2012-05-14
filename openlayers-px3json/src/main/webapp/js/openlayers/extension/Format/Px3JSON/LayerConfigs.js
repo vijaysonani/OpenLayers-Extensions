@@ -1,12 +1,11 @@
-OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class({
+OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
     /**
     * Class: OpenLayers.Format.Px3JSON.LayerConfig
     * 
-    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
-    */
-   
-    /**
     * @requires OpenLayers/Format/Px3JSON/InfoTemplate.js
+    * @requires OpenLayers/Format/Px3JSON.js
+    *  
+    * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
     /**
@@ -30,7 +29,6 @@ OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class({
      */
     infoTemplate : {},
     
-    options : null,
     /**
      * Constructor: OpenLayers.Format.Px3JSON.LayerConfig
      * Construct an OpenLayers.Format.Px3JSON.LayerConfig object
@@ -60,20 +58,6 @@ OpenLayers.Format.Px3JSON.LayerConfig = OpenLayers.Class({
      */
     read : function(json) {
         return new OpenLayers.Format.Px3JSON.LayerConfig(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
-    },
-    
-    /**
-     * Method: isValidType
-     * Check if an object is a valid representative of the given type.
-     * 
-     * Parameters:
-     * obj - {Object} An initialized object of this type
-     * 
-     * Returns:
-     * {Boolean} The object is valid object of the given type.
-     */
-    isValidType : function(obj) {
-        return true;
     },
     
     CLASS_NAME : 'OpenLayers.Format.Px3JSON.LayerConfig'

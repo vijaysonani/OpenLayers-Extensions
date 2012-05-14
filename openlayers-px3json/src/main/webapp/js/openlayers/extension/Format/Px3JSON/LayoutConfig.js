@@ -1,13 +1,12 @@
-OpenLayers.Format.Px3JSON.LayoutConfig = OpenLayers.Class({
-    /**
-    * @requires OpenLayers/Format/Px3JSON/OverlayGroups.js
-    */
+OpenLayers.Format.Px3JSON.LayoutConfig = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
 
     /**
     * Class: OpenLayers.Format.Px3JSON.LayoutConfig
     * 
     * An object containing various properties used to setup the layout of the application.
-    * 
+    *
+    * @requires OpenLayers/Format/Px3JSON.js  
+    * @requires OpenLayers/Format/Px3JSON/OverlayGroups.js
     * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
    
@@ -61,8 +60,6 @@ OpenLayers.Format.Px3JSON.LayoutConfig = OpenLayers.Class({
      */
     availableTasks: null,
                   
-    options : null,
-    
     /**
      * Constructor: OpenLayers.Format.Px3JSON.LayoutConfig
      * Construct an OpenLayers.Format.Px3JSON.LayoutConfig object
@@ -94,20 +91,6 @@ OpenLayers.Format.Px3JSON.LayoutConfig = OpenLayers.Class({
      */
     read : function(json) {
         return new OpenLayers.Format.Px3JSON.LayoutConfig(OpenLayers.Format.JSON.prototype.read.apply(this, [json]));
-    },
-    
-    /**
-     * Method: isValidType
-     * Check if an object is a valid representative of the given type.
-     * 
-     * Parameters:
-     * obj - {Object} An initialized object of this type
-     * 
-     * Returns:
-     * {Boolean} The object is valid object of the given type.
-     */
-    isValidType : function(obj) {
-        return true;
     },
     
     CLASS_NAME: "OpenLayers.Format.Px3JSON.LayoutConfig"

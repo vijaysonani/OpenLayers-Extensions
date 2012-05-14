@@ -1,4 +1,4 @@
-OpenLayers.Format.Px3JSON.Tasks = OpenLayers.Class({
+OpenLayers.Format.Px3JSON.Tasks = OpenLayers.Class(OpenLayers.Format.Px3JSON, {
     
     /**
     * Class: OpenLayers.Format.Px3JSON.Tasks 
@@ -6,6 +6,8 @@ OpenLayers.Format.Px3JSON.Tasks = OpenLayers.Class({
     * The tasks object can be thought of as a hash map with the key being the 
     * task id and value being a task configuration object. This is included in 
     * the NGA Palanterra x3 Toolbox, but not used by USGS The National Map
+    * 
+    * @requires OpenLayers/Format/Px3JSON.js
     * 
     * More info @ https://my.usgs.gov/confluence/download/attachments/67862566/Configuring+Config_USGS_TNM.json.pdf
     */
@@ -48,18 +50,6 @@ OpenLayers.Format.Px3JSON.Tasks = OpenLayers.Class({
      * This will be used if displaySecurityBanners or displayTocSecurityMarkings in the
      */
     classification: null,     
-    
-    /**
-     * Constructor: OpenLayers.Format.Px3JSON.OpenLayers.Format.Px3JSON.Extents
-     * Construct an OpenLayers.Format.Px3JSON.OpenLayers.Format.Px3JSON.Extents object
-     * 
-     * Parameters:
-     * options - {Object} Optional object whose properties will be set on
-     *     the object.
-     */
-    initialize: function(options) {
-        OpenLayers.Util.applyDefaults(this, options);
-    },
     
     /**
      * APIMethod: read
