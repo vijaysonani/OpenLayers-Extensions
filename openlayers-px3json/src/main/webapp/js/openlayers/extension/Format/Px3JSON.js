@@ -24,8 +24,11 @@ OpenLayers.Format.Px3JSON = OpenLayers.Class(OpenLayers.Format.JSON, {
         } else if(typeof(obj[requiredStringNode]) != "string") {
             OpenLayers.Console.error("Bad Px3JSON - no "+requiredStringNode+": " + json);
         } else {
-            return obj;
+            for (key in obj) {
+                
+            }
         }
+        return obj;
     },
     
     write: function(px3json, pretty) {
