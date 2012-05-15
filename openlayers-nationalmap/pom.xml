@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <artifactId>openlayers-parent</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>openlayers-parent</artifactId>
+        <groupId>gov.usgs.cida.jslibs</groupId>
+        <version>2.11-4-SNAPSHOT</version>
+    </parent>
+
     <groupId>gov.usgs.cida.jslibs</groupId>
-    <version>2.11-4-SNAPSHOT</version>
-  </parent>
+    <artifactId>openlayers-nationalmap</artifactId>
+    <packaging>war</packaging>
+    <name>openlayers-nationalmap</name>
+    <url>http://ngp.ideascale.com/a/dtd/TNM-OpenLayers-Viewer-Framework-/125132-12334</url>
 
-  <groupId>gov.usgs.cida.jslibs</groupId>
-  <artifactId>openlayers-nationalmap</artifactId>
-  <packaging>war</packaging>
-  <name>openlayers-nationalmap</name>
-  <url>http://ngp.ideascale.com/a/dtd/TNM-OpenLayers-Viewer-Framework-/125132-12334</url>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
